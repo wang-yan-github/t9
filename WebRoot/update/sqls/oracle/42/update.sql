@@ -1,0 +1,2 @@
+ALTER TABLE calendar ADD (CALENDARS TEXT);
+ALTER TABLE proj_project modify (PROJ_DEPT CLOB);

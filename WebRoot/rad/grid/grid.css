@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+th,td { 
+ padding: 3px; 
+}
+ div.T9_grid {
+  width : 100% ;
+  height :100% ;
+  overflow:hidden;
+  zoom:1;
+  position:relative;
+  background-color : #FFffff ;
+}
+
+.T9_grid_topBar {
+	height:15%;
+    font:normal 11px arial, tahoma, helvetica, sans-serif;
+    overflow:hidden;
+	zoom:1;
+    position:relative;
+}
+.T9_grid_data {
+  
+  width : 100% ;
+  height : 70% ;
+  BACKGROUND: #FFFFFF;
+  COLOR:#000000;
+}
+.T9_grid.T9_grid_bottomBar {
+	height:15%;
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+	overflow:hidden;
+	zoom:0.9;
+    position:relative;
+}
+.T9_grid_table {
+	width : 100% ;
+	height : 70% ;
+	font-size：12px;
+	overflow-y :scroll;
+	empty-cells :show;
+	text-align:center ;
+	border-spacing:1px;
+	padding: 3pt; 
+	margin:1pt;
+	border-collapse : separate;
+}
+.TableLine1 {COLOR:#2E2E5A;}
+.TableLine2 {COLOR:#2E2E5A;}
+
+.T9_Grid_OpratePanel{
+	
+	width : 100% ;
+    font:normal 11px arial, tahoma, helvetica, sans-serif;
+	overflow:hidden;
+	zoom:0.9;
+	FONT-SIZE: 12px;
+    FONT-FAMILY: "宋体";
+    position:relative;
+}
+A.T9_Grid_data_opratePanel_A{
+    cursor:pointer;
+    cursor:hand;
+    FONT-SIZE: 14px;
+    FONT-FAMILY: "宋体";
+}
+A.T9_Grid_data_opratePanel_A:hover {
+   color:#9AA9B8;
+   text-decoration:underline;
+   background-position:0px -17px;
+}
+.T9_Grid_OpratePanel_select{
+    cursor:pointer;
+    cursor:hand;
+	  width:30%;
+	  FONT-SIZE: 12px;
+    FONT-FAMILY: "宋体";
+}
+button.T9_grid_bottomBar_firstButton{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background:url(/t9/core/styles/style1/img/cmp/grid/pageStart.gif) no-repeat;
+	border:none;
+}
+.T9_grid_bottomBar_lastButton{
+	cursor:pointer;
+    cursor:hand;
+    background: url(/t9/core/styles/style1/img/cmp/grid/pageEnd.gif) top right repeat-x;
+	width:20px;
+	height:20px;
+
+	border:none;
+}
+.T9_grid_bottomBar_nextButton{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pageNext.gif) top right repeat-x;
+	border:none;
+}
+.T9_grid_bottomBar_priButton{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pagePrev.gif) top left repeat-x;
+	border:none;
+	}
+.T9_grid_bottomBar_firstButton2{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pageStart1.gif) top  left repeat-x;
+	border:none;
+}
+.T9_grid_bottomBar_lastButton2{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pageEnd1.gif) top right repeat-x;
+	border:none;
+}
+.T9_grid_bottomBar_nextButton2{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pageNext1.gif) top right repeat-x;
+	border:none;
+}
+.T9_grid_bottomBar_priButton2{
+	cursor:pointer;
+    cursor:hand;
+	width:20px;
+	height:20px;
+	background: url(/t9/core/styles/style1/img/cmp/grid/pagePrev1.gif) top left repeat-x;
+	border:none;
+	}
+div.T9_Grid_data_opratePanel{
+		font:normal 11px arial, tahoma, helvetica, sans-serif;
+	    overflow:hidden;
+	    cursor:pointer;
+    cursor:hand;
+	    zoom:0.9;
+        position:relative;
+	}

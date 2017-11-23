@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="T9SystemLogService">
+<description>
+  This is a sample Web Service.
+</description>
+<parameter name="ServiceClass" locked="false">t9.user.taiji.system.T9SystemLogService</parameter>
+<operation name="getLogByDate">
+  <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+</operation>
+<operation name="getLogCountByDate">
+  <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+</operation>
+</service> 
+

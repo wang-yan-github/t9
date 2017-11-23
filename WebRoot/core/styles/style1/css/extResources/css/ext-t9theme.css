@@ -1,0 +1,200 @@
+.t9-panel {
+}
+
+.t9-panel .x-panel-body {
+    border:0px solid;
+    border-top:0 none;
+    overflow:hidden;
+    position: relative; /* added for item scroll positioning */
+}
+
+.t9-panel .x-panel-body-noheader,.t9-panel .x-panel-mc .x-panel-body {
+    border-top:0px solid;
+}
+
+.t9-panel .x-panel-tl {
+   border-bottom:0px solid;
+}
+
+.t9-panel .x-panel-bc {
+  background: none transparent repeat-x 0 bottom;
+  zoom:1;
+}
+
+.t9-panel .x-html-editor-wrap {
+    border:0px solid;
+}
+
+.t9-panel .x-toolbar{
+  border-color:#a9bfd3;
+  background-image:url(../images/t9theme/toolbar/bg.jpg);
+}
+
+.t9-panel .x-panel-header {
+  color:#15428b;
+  font-weight:bold; 
+  font-size: 11px;
+  font-family: tahoma,arial,verdana,sans-serif;
+  background-image: url(../images/t9theme/panel/white-top-bottom.jpg);
+}
+
+.x-panel-body {
+  background-color:#ebe9e9;
+  border: none;
+}
+.t9-panel .x-panel-tc {
+  background-image: url(../images/t9theme/panel/top-bottom.jpg);
+  height:35px;
+}
+
+.t9-panel .x-panel-tl {
+  padding-left:14px;
+  background-image: url(../images/t9theme/panel/corners-sprite-tl.jpg);
+  border-bottom-color:#99bbe8;
+}
+
+.t9-panel .x-panel-tr {
+  padding-right:14px;
+  background-image: url(../images/t9theme/panel/corners-sprite-tr.jpg);
+    border-bottom-color:#99bbe8;
+}
+
+.t9-panel .x-panel-bl {
+  padding-left:12px;
+  height:42px;
+  background: url(../images/t9theme/panel/corners-sprite-bl.jpg) no-repeat left top;
+  border-bottom-color:#99bbe8;
+}
+
+.t9-panel .x-panel-br {
+  padding-right:12px;
+  height:42px;
+  background: url(../images/t9theme/panel/corners-sprite-br.jpg) no-repeat right top;
+  border-bottom-color:#99bbe8;
+}
+
+.t9-panel .x-panel-bc {
+  background: url(../images/t9theme/panel/corners-sprite-bc.jpg) repeat-x left top;
+  width:100%;
+}
+
+.t9-panel .x-panel-mc {
+    font: normal 11px tahoma,arial,helvetica,sans-serif;
+    background-color:white;
+}
+
+.t9-panel .x-panel-ml {
+  padding-left:10px;
+  background:url(../images/t9theme/panel/left-right-ml.jpg)  repeat-y left top;
+}
+
+.t9-panel .x-panel-mr {
+  padding-right:14px;
+  background:url(../images/t9theme/panel/left-right-mr.jpg) repeat-y right top;
+}
+
+.t9-panel .x-tool {
+    background-image:url(../images/t9theme/panel/tool-sprites.gif);
+}
+
+.t9-panel .x-panel-noborder .x-panel-header-noborder {
+    border-bottom-color:white;
+}
+
+.t9-panel .x-border-layout-ct {
+    background-color:white;
+}
+
+.t9-panel .x-panel-nofooter .x-panel-bc {
+	  height:32px;
+}
+
+
+#moduleWindow .x-window-tl {
+  padding-left:14px;
+  background-image: url(../images/t9theme/panel/corners-sprite-tl.jpg);
+    border-bottom-color:#99bbe8;
+}
+
+#moduleWindow .x-window-tc {
+  background-image: url(../images/t9theme/panel/top-bottom.jpg);
+  height:35px;
+}
+
+#moduleWindow .x-window-tr {
+  padding-right:14px;
+  background-image: url(../images/t9theme/panel/corners-sprite-tr.jpg);
+  border-bottom-color:#99bbe8;
+}
+
+#moduleWindow .x-tool {
+    background-image:url(../images/t9theme/panel/tool-sprites.gif);
+}
+
+
+#moduleWindow .x-window-bl {
+  padding-left:12px;
+  height:42px;
+  background: url(../images/t9theme/panel/corners-sprite-bl.jpg) no-repeat left top;
+  border-bottom-color:#99bbe8;
+}
+
+#moduleWindow .x-window-br {
+  padding-right:12px;
+  height:42px;
+  background: url(../images/t9theme/panel/corners-sprite-br.jpg) no-repeat right top;
+  border-bottom-color:#99bbe8;
+}
+
+#moduleWindow .x-window-bc {
+  background:url(../images/t9theme/panel/corners-sprite-bc.jpg) repeat-x left top;
+  height:42px;
+  width:100%;
+}
+
+#moduleWindow .x-window-mc {
+    font: normal 11px tahoma,arial,helvetica,sans-serif;
+    background-color:white;
+}
+
+#moduleWindow .x-window-ml {
+  padding-left:10px;
+  background:url(../images/t9theme/panel/left-right-ml.jpg)  repeat-y left top;
+}
+
+#moduleWindow .x-window-mr {
+  padding-right:14px;
+  background:url(../images/t9theme/panel/left-right-mr.jpg) repeat-y right top;
+}
+
+#moduleWindow .x-window-plain .x-window-mc {
+	border:0px solid;
+}
+
+#moduleWindow .x-window-plain .x-window-body {
+	border:0px solid;
+}
+
+#moduleWindow .x-panel-ml {
+	background: none transparent;
+}
+
+#moduleWindow .x-panel-mr {
+	background: none transparent;
+}
+
+#moduleWindow .x-panel-mc {
+	background: none transparent;
+}
+
+#moduleWindow .x-panel-bl {
+	background: none transparent;
+}
+
+#moduleWindow .x-panel-br {
+	background: none transparent;
+}
+
+#moduleWindow .x-panel-bc {
+	background: none transparent;
+}

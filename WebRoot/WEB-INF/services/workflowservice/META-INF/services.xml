@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="T9WorkListService">
+<description>
+  This is a sample Web Service.
+</description>
+<parameter name="ServiceClass" locked="false">t9.user.taiji.workflow.T9WorkListService</parameter>
+<operation name="getWorkList">
+  <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+</operation>
+</service> 
+

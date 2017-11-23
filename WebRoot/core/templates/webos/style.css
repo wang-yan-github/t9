@@ -1,0 +1,81 @@
+/**　整个背景图片，可以通过img/bg.jpg替换 **/
+body {
+	font:12px "微软雅黑", helvetica, Arial, Sans-Serif;
+  background: url(img/bg.jpg) repeat;
+  padding-top:128px;
+}
+/**　登陆窗口图片的大小 ，其中图片可以通过系统管理》界面设置进行设置**/
+.login-bg {
+  position:relative;
+  width:724px;
+  height:313px;
+}
+/**　登陆窗口用户名的位置 **/
+.login-username {
+  position:absolute;
+  top:156px;
+  left:130px;
+  width:57px;
+  height:16px;
+}
+/**　登陆窗口密码的位置 **/
+.login-password {
+  position:absolute;
+  top:193px;
+  left:130px;
+  width:57px;
+  height:16px;
+}
+/**　登陆窗口输入控件（用户名，密码）的高宽 **/
+.login-input-bg {
+  padding-top: 1px;
+  position:relative;
+  width:184px;
+  height:25px;
+}
+/**　验证码位置 **/
+.verification-code {
+  position:absolute;
+  top:237px;
+  left:58px;
+  width:173px;
+  height:31px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.verification-code input {
+	width: 60px;
+  margin-left: 5px;
+}
+/**　验证码输入的高宽 **/
+.login-input-bg input{
+  border:none;
+  background-color:transparent;
+  height:20px;
+  width: 170px;
+}
+/**　登陆按钮的位置高宽，以及背景 **/
+.login-btn {
+  position:absolute;
+  top:237px;
+  left:238px;
+  cursor:pointer;
+  width:113px;
+  height:31px;
+  background: url(img/login_btn.png) no-repeat left top;
+}
+/**　鼠标通过按钮时背景 **/
+.login-btn:hover {
+	  background: url(img/login_btn_hover.png) no-repeat left top;
+}
+
+#tip {
+  position:absolute;
+  top:237px;
+  left:238px;
+  cursor:pointer;
+  width:113px;
+  height:31px;
+  background: url(img/flower.gif) no-repeat left top;
+}

@@ -1,0 +1,1544 @@
+2012-12-06 : 15-00-05-174 Thread-1078 t9 30 - d-读取的信息转json
+2012-12-06 : 15-00-05-174 Thread-1078 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-00-05-175 Thread-1078 t9 30 - d-处理信息头
+2012-12-06 : 15-00-05-175 Thread-1078 t9 30 - d-保存下载任务
+2012-12-06 : 15-00-05-175 Thread-1078 t9 30 - saveTasks-1
+2012-12-06 : 15-00-05-176 Thread-1078 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-00-24-984 Thread-1081 t9 30 - d-用户已在线
+2012-12-06 : 15-00-24-992 Thread-1083 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-00-24-992 Thread-1083 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-00-25-011 Thread-1081 t9 30 - d-发送请求<获取信息>:耗时:27
+2012-12-06 : 15-00-25-011 Thread-1081 t9 30 - d-开始读取信息
+2012-12-06 : 15-00-25-011 Thread-1081 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-00-25-012 Thread-1081 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-00-25-012 Thread-1081 t9 30 - d-读取的信息转json
+2012-12-06 : 15-00-25-012 Thread-1081 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-00-25-012 Thread-1081 t9 30 - d-处理信息头
+2012-12-06 : 15-00-25-013 Thread-1081 t9 30 - d-保存下载任务
+2012-12-06 : 15-00-25-013 Thread-1081 t9 30 - saveTasks-1
+2012-12-06 : 15-00-25-013 Thread-1081 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-00-44-990 Thread-1085 t9 30 - d-用户已在线
+2012-12-06 : 15-00-45-004 Thread-1087 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-00-45-004 Thread-1087 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-00-45-016 Thread-1085 t9 30 - d-发送请求<获取信息>:耗时:25
+2012-12-06 : 15-00-45-016 Thread-1085 t9 30 - d-开始读取信息
+2012-12-06 : 15-00-45-016 Thread-1085 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-00-45-017 Thread-1085 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-00-45-017 Thread-1085 t9 30 - d-读取的信息转json
+2012-12-06 : 15-00-45-017 Thread-1085 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-00-45-017 Thread-1085 t9 30 - d-处理信息头
+2012-12-06 : 15-00-45-018 Thread-1085 t9 30 - d-保存下载任务
+2012-12-06 : 15-00-45-018 Thread-1085 t9 30 - saveTasks-1
+2012-12-06 : 15-00-45-018 Thread-1085 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-01-04-992 Thread-1088 t9 30 - d-用户已在线
+2012-12-06 : 15-01-05-006 Thread-1090 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-01-05-006 Thread-1090 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-01-05-015 Thread-1088 t9 30 - d-发送请求<获取信息>:耗时:23
+2012-12-06 : 15-01-05-015 Thread-1088 t9 30 - d-开始读取信息
+2012-12-06 : 15-01-05-015 Thread-1088 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-01-05-015 Thread-1088 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-01-05-016 Thread-1088 t9 30 - d-读取的信息转json
+2012-12-06 : 15-01-05-016 Thread-1088 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-01-05-016 Thread-1088 t9 30 - d-处理信息头
+2012-12-06 : 15-01-05-016 Thread-1088 t9 30 - d-保存下载任务
+2012-12-06 : 15-01-05-016 Thread-1088 t9 30 - saveTasks-1
+2012-12-06 : 15-01-05-017 Thread-1088 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-01-24-995 Thread-1091 t9 30 - d-用户已在线
+2012-12-06 : 15-01-25-010 Thread-1093 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-01-25-011 Thread-1093 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-01-25-016 Thread-1091 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 15-01-25-016 Thread-1091 t9 30 - d-开始读取信息
+2012-12-06 : 15-01-25-016 Thread-1091 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-01-25-016 Thread-1091 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-01-25-016 Thread-1091 t9 30 - d-读取的信息转json
+2012-12-06 : 15-01-25-017 Thread-1091 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-01-25-017 Thread-1091 t9 30 - d-处理信息头
+2012-12-06 : 15-01-25-017 Thread-1091 t9 30 - d-保存下载任务
+2012-12-06 : 15-01-25-017 Thread-1091 t9 30 - saveTasks-1
+2012-12-06 : 15-01-25-018 Thread-1091 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-01-44-994 Thread-1094 t9 30 - d-用户已在线
+2012-12-06 : 15-01-45-009 Thread-1096 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-01-45-010 Thread-1096 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-01-45-019 Thread-1094 t9 30 - d-发送请求<获取信息>:耗时:25
+2012-12-06 : 15-01-45-019 Thread-1094 t9 30 - d-开始读取信息
+2012-12-06 : 15-01-45-019 Thread-1094 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - d-读取的信息转json
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - d-处理信息头
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - d-保存下载任务
+2012-12-06 : 15-01-45-020 Thread-1094 t9 30 - saveTasks-1
+2012-12-06 : 15-01-45-021 Thread-1094 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-02-04-996 Thread-1097 t9 30 - d-用户已在线
+2012-12-06 : 15-02-05-014 Thread-1099 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-02-05-014 Thread-1099 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-02-05-019 Thread-1097 t9 30 - d-发送请求<获取信息>:耗时:23
+2012-12-06 : 15-02-05-019 Thread-1097 t9 30 - d-开始读取信息
+2012-12-06 : 15-02-05-020 Thread-1097 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-02-05-020 Thread-1097 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-02-05-020 Thread-1097 t9 30 - d-读取的信息转json
+2012-12-06 : 15-02-05-020 Thread-1097 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-02-05-021 Thread-1097 t9 30 - d-处理信息头
+2012-12-06 : 15-02-05-021 Thread-1097 t9 30 - d-保存下载任务
+2012-12-06 : 15-02-05-021 Thread-1097 t9 30 - saveTasks-1
+2012-12-06 : 15-02-05-022 Thread-1097 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-02-24-996 Thread-1102 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-02-24-996 Thread-1102 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-02-24-998 Thread-1100 t9 30 - d-用户已在线
+2012-12-06 : 15-02-25-013 Thread-1100 t9 30 - d-发送请求<获取信息>:耗时:14
+2012-12-06 : 15-02-25-014 Thread-1100 t9 30 - d-开始读取信息
+2012-12-06 : 15-02-25-014 Thread-1100 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-02-25-014 Thread-1100 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-02-25-014 Thread-1100 t9 30 - d-读取的信息转json
+2012-12-06 : 15-02-25-015 Thread-1100 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-02-25-015 Thread-1100 t9 30 - d-处理信息头
+2012-12-06 : 15-02-25-015 Thread-1100 t9 30 - d-保存下载任务
+2012-12-06 : 15-02-25-016 Thread-1100 t9 30 - saveTasks-1
+2012-12-06 : 15-02-25-016 Thread-1100 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-02-45-001 Thread-1103 t9 30 - d-用户已在线
+2012-12-06 : 15-02-45-016 Thread-1105 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-02-45-016 Thread-1105 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-02-45-023 Thread-1103 t9 30 - d-发送请求<获取信息>:耗时:22
+2012-12-06 : 15-02-45-023 Thread-1103 t9 30 - d-开始读取信息
+2012-12-06 : 15-02-45-024 Thread-1103 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-02-45-024 Thread-1103 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-02-45-024 Thread-1103 t9 30 - d-读取的信息转json
+2012-12-06 : 15-02-45-025 Thread-1103 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-02-45-025 Thread-1103 t9 30 - d-处理信息头
+2012-12-06 : 15-02-45-025 Thread-1103 t9 30 - d-保存下载任务
+2012-12-06 : 15-02-45-025 Thread-1103 t9 30 - saveTasks-1
+2012-12-06 : 15-02-45-026 Thread-1103 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-03-05-000 Thread-1106 t9 30 - d-用户已在线
+2012-12-06 : 15-03-05-022 Thread-1108 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-03-05-022 Thread-1108 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-03-05-023 Thread-1106 t9 30 - d-发送请求<获取信息>:耗时:22
+2012-12-06 : 15-03-05-023 Thread-1106 t9 30 - d-开始读取信息
+2012-12-06 : 15-03-05-024 Thread-1106 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-03-05-024 Thread-1106 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-03-05-024 Thread-1106 t9 30 - d-读取的信息转json
+2012-12-06 : 15-03-05-024 Thread-1106 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-03-05-024 Thread-1106 t9 30 - d-处理信息头
+2012-12-06 : 15-03-05-025 Thread-1106 t9 30 - d-保存下载任务
+2012-12-06 : 15-03-05-025 Thread-1106 t9 30 - saveTasks-1
+2012-12-06 : 15-03-05-025 Thread-1106 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-03-25-000 Thread-1112 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-03-25-001 Thread-1112 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-03-25-001 Thread-1110 t9 30 - d-用户已在线
+2012-12-06 : 15-03-25-020 Thread-1110 t9 30 - d-发送请求<获取信息>:耗时:18
+2012-12-06 : 15-03-25-020 Thread-1110 t9 30 - d-开始读取信息
+2012-12-06 : 15-03-25-020 Thread-1110 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-03-25-021 Thread-1110 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-03-25-021 Thread-1110 t9 30 - d-读取的信息转json
+2012-12-06 : 15-03-25-021 Thread-1110 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-03-25-021 Thread-1110 t9 30 - d-处理信息头
+2012-12-06 : 15-03-25-021 Thread-1110 t9 30 - d-保存下载任务
+2012-12-06 : 15-03-25-022 Thread-1110 t9 30 - saveTasks-1
+2012-12-06 : 15-03-25-022 Thread-1110 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-03-45-003 Thread-1113 t9 30 - d-用户已在线
+2012-12-06 : 15-03-45-016 Thread-1115 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-03-45-016 Thread-1115 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-03-45-026 Thread-1113 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 15-03-45-026 Thread-1113 t9 30 - d-开始读取信息
+2012-12-06 : 15-03-45-026 Thread-1113 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-03-45-026 Thread-1113 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-03-45-027 Thread-1113 t9 30 - d-读取的信息转json
+2012-12-06 : 15-03-45-027 Thread-1113 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-03-45-027 Thread-1113 t9 30 - d-处理信息头
+2012-12-06 : 15-03-45-027 Thread-1113 t9 30 - d-保存下载任务
+2012-12-06 : 15-03-45-028 Thread-1113 t9 30 - saveTasks-1
+2012-12-06 : 15-03-45-028 Thread-1113 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-04-05-004 Thread-1116 t9 30 - d-用户已在线
+2012-12-06 : 15-04-05-018 Thread-1118 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-04-05-018 Thread-1118 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-04-05-025 Thread-1116 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 15-04-05-025 Thread-1116 t9 30 - d-开始读取信息
+2012-12-06 : 15-04-05-026 Thread-1116 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-04-05-026 Thread-1116 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-04-05-026 Thread-1116 t9 30 - d-读取的信息转json
+2012-12-06 : 15-04-05-026 Thread-1116 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-04-05-027 Thread-1116 t9 30 - d-处理信息头
+2012-12-06 : 15-04-05-027 Thread-1116 t9 30 - d-保存下载任务
+2012-12-06 : 15-04-05-027 Thread-1116 t9 30 - saveTasks-1
+2012-12-06 : 15-04-05-027 Thread-1116 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-04-25-019 Thread-1119 t9 30 - d-用户已在线
+2012-12-06 : 15-04-25-033 Thread-1121 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-04-25-033 Thread-1121 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-04-25-039 Thread-1119 t9 30 - d-发送请求<获取信息>:耗时:20
+2012-12-06 : 15-04-25-040 Thread-1119 t9 30 - d-开始读取信息
+2012-12-06 : 15-04-25-040 Thread-1119 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-04-25-040 Thread-1119 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-04-25-040 Thread-1119 t9 30 - d-读取的信息转json
+2012-12-06 : 15-04-25-041 Thread-1119 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-04-25-041 Thread-1119 t9 30 - d-处理信息头
+2012-12-06 : 15-04-25-041 Thread-1119 t9 30 - d-保存下载任务
+2012-12-06 : 15-04-25-041 Thread-1119 t9 30 - saveTasks-1
+2012-12-06 : 15-04-25-042 Thread-1119 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-04-45-020 Thread-1123 t9 30 - d-用户已在线
+2012-12-06 : 15-04-45-021 Thread-1124 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-04-45-022 Thread-1124 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-04-45-039 Thread-1123 t9 30 - d-发送请求<获取信息>:耗时:18
+2012-12-06 : 15-04-45-039 Thread-1123 t9 30 - d-开始读取信息
+2012-12-06 : 15-04-45-039 Thread-1123 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-04-45-040 Thread-1123 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-04-45-040 Thread-1123 t9 30 - d-读取的信息转json
+2012-12-06 : 15-04-45-040 Thread-1123 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-04-45-041 Thread-1123 t9 30 - d-处理信息头
+2012-12-06 : 15-04-45-041 Thread-1123 t9 30 - d-保存下载任务
+2012-12-06 : 15-04-45-041 Thread-1123 t9 30 - saveTasks-1
+2012-12-06 : 15-04-45-042 Thread-1123 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-05-05-029 Thread-1127 t9 30 - d-用户已在线
+2012-12-06 : 15-05-05-041 Thread-1128 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-05-05-042 Thread-1128 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-05-05-048 Thread-1127 t9 30 - d-发送请求<获取信息>:耗时:19
+2012-12-06 : 15-05-05-048 Thread-1127 t9 30 - d-开始读取信息
+2012-12-06 : 15-05-05-049 Thread-1127 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-05-05-049 Thread-1127 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-05-05-049 Thread-1127 t9 30 - d-读取的信息转json
+2012-12-06 : 15-05-05-049 Thread-1127 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-05-05-049 Thread-1127 t9 30 - d-处理信息头
+2012-12-06 : 15-05-05-050 Thread-1127 t9 30 - d-保存下载任务
+2012-12-06 : 15-05-05-050 Thread-1127 t9 30 - saveTasks-1
+2012-12-06 : 15-05-05-050 Thread-1127 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-05-25-026 Thread-1130 t9 30 - d-用户已在线
+2012-12-06 : 15-05-25-046 Thread-1132 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-05-25-046 Thread-1132 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-05-25-051 Thread-1130 t9 30 - d-发送请求<获取信息>:耗时:25
+2012-12-06 : 15-05-25-051 Thread-1130 t9 30 - d-开始读取信息
+2012-12-06 : 15-05-25-052 Thread-1130 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-05-25-052 Thread-1130 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-05-25-052 Thread-1130 t9 30 - d-读取的信息转json
+2012-12-06 : 15-05-25-053 Thread-1130 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-05-25-053 Thread-1130 t9 30 - d-处理信息头
+2012-12-06 : 15-05-25-053 Thread-1130 t9 30 - d-保存下载任务
+2012-12-06 : 15-05-25-053 Thread-1130 t9 30 - saveTasks-1
+2012-12-06 : 15-05-25-054 Thread-1130 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-05-45-029 Thread-1134 t9 30 - d-用户已在线
+2012-12-06 : 15-05-45-045 Thread-1135 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-05-45-045 Thread-1135 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-05-45-051 Thread-1134 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 15-05-45-051 Thread-1134 t9 30 - d-开始读取信息
+2012-12-06 : 15-05-45-051 Thread-1134 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - d-读取的信息转json
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - d-处理信息头
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - d-保存下载任务
+2012-12-06 : 15-05-45-052 Thread-1134 t9 30 - saveTasks-1
+2012-12-06 : 15-05-45-054 Thread-1134 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-06-05-027 Thread-1137 t9 30 - d-用户已在线
+2012-12-06 : 15-06-05-040 Thread-1138 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-06-05-041 Thread-1138 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-06-05-046 Thread-1137 t9 30 - d-发送请求<获取信息>:耗时:19
+2012-12-06 : 15-06-05-047 Thread-1137 t9 30 - d-开始读取信息
+2012-12-06 : 15-06-05-047 Thread-1137 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-06-05-047 Thread-1137 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-06-05-047 Thread-1137 t9 30 - d-读取的信息转json
+2012-12-06 : 15-06-05-048 Thread-1137 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-06-05-048 Thread-1137 t9 30 - d-处理信息头
+2012-12-06 : 15-06-05-048 Thread-1137 t9 30 - d-保存下载任务
+2012-12-06 : 15-06-05-048 Thread-1137 t9 30 - saveTasks-1
+2012-12-06 : 15-06-05-049 Thread-1137 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-06-25-031 Thread-1140 t9 30 - d-用户已在线
+2012-12-06 : 15-06-25-042 Thread-1141 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-06-25-042 Thread-1141 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-06-25-046 Thread-1140 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-06 : 15-06-25-046 Thread-1140 t9 30 - d-开始读取信息
+2012-12-06 : 15-06-25-047 Thread-1140 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-06-25-047 Thread-1140 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-06-25-047 Thread-1140 t9 30 - d-读取的信息转json
+2012-12-06 : 15-06-25-047 Thread-1140 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-06-25-048 Thread-1140 t9 30 - d-处理信息头
+2012-12-06 : 15-06-25-048 Thread-1140 t9 30 - d-保存下载任务
+2012-12-06 : 15-06-25-048 Thread-1140 t9 30 - saveTasks-1
+2012-12-06 : 15-06-25-048 Thread-1140 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-06-45-032 Thread-1143 t9 30 - d-用户已在线
+2012-12-06 : 15-06-45-043 Thread-1144 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-06-45-044 Thread-1144 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-06-45-049 Thread-1143 t9 30 - d-发送请求<获取信息>:耗时:17
+2012-12-06 : 15-06-45-049 Thread-1143 t9 30 - d-开始读取信息
+2012-12-06 : 15-06-45-049 Thread-1143 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - d-读取的信息转json
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - d-处理信息头
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - d-保存下载任务
+2012-12-06 : 15-06-45-050 Thread-1143 t9 30 - saveTasks-1
+2012-12-06 : 15-06-45-051 Thread-1143 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-07-05-032 Thread-1146 t9 30 - d-用户已在线
+2012-12-06 : 15-07-05-038 Thread-1147 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-07-05-039 Thread-1147 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-07-05-066 Thread-1146 t9 30 - d-发送请求<获取信息>:耗时:33
+2012-12-06 : 15-07-05-066 Thread-1146 t9 30 - d-开始读取信息
+2012-12-06 : 15-07-05-066 Thread-1146 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - d-读取的信息转json
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - d-处理信息头
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - d-保存下载任务
+2012-12-06 : 15-07-05-067 Thread-1146 t9 30 - saveTasks-1
+2012-12-06 : 15-07-05-068 Thread-1146 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-07-25-033 Thread-1149 t9 30 - d-用户已在线
+2012-12-06 : 15-07-25-046 Thread-1150 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-07-25-046 Thread-1150 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-07-25-057 Thread-1149 t9 30 - d-发送请求<获取信息>:耗时:24
+2012-12-06 : 15-07-25-057 Thread-1149 t9 30 - d-开始读取信息
+2012-12-06 : 15-07-25-057 Thread-1149 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-07-25-057 Thread-1149 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-07-25-057 Thread-1149 t9 30 - d-读取的信息转json
+2012-12-06 : 15-07-25-058 Thread-1149 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-07-25-058 Thread-1149 t9 30 - d-处理信息头
+2012-12-06 : 15-07-25-058 Thread-1149 t9 30 - d-保存下载任务
+2012-12-06 : 15-07-25-058 Thread-1149 t9 30 - saveTasks-1
+2012-12-06 : 15-07-25-059 Thread-1149 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-07-45-036 Thread-1152 t9 30 - d-用户已在线
+2012-12-06 : 15-07-45-048 Thread-1153 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-07-45-048 Thread-1153 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-07-45-059 Thread-1152 t9 30 - d-发送请求<获取信息>:耗时:23
+2012-12-06 : 15-07-45-059 Thread-1152 t9 30 - d-开始读取信息
+2012-12-06 : 15-07-45-059 Thread-1152 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-07-45-059 Thread-1152 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-07-45-060 Thread-1152 t9 30 - d-读取的信息转json
+2012-12-06 : 15-07-45-060 Thread-1152 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-07-45-060 Thread-1152 t9 30 - d-处理信息头
+2012-12-06 : 15-07-45-060 Thread-1152 t9 30 - d-保存下载任务
+2012-12-06 : 15-07-45-061 Thread-1152 t9 30 - saveTasks-1
+2012-12-06 : 15-07-45-061 Thread-1152 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-08-05-035 Thread-1155 t9 30 - d-用户已在线
+2012-12-06 : 15-08-05-036 Thread-1156 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-08-05-036 Thread-1156 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-08-05-050 Thread-1155 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-06 : 15-08-05-050 Thread-1155 t9 30 - d-开始读取信息
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-读取的信息转json
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-处理信息头
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - d-保存下载任务
+2012-12-06 : 15-08-05-051 Thread-1155 t9 30 - saveTasks-1
+2012-12-06 : 15-08-05-052 Thread-1155 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-08-25-035 Thread-1159 t9 30 - d-用户已在线
+2012-12-06 : 15-08-25-037 Thread-1160 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-08-25-038 Thread-1160 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-08-25-052 Thread-1159 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-06 : 15-08-25-052 Thread-1159 t9 30 - d-开始读取信息
+2012-12-06 : 15-08-25-052 Thread-1159 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-08-25-052 Thread-1159 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-08-25-053 Thread-1159 t9 30 - d-读取的信息转json
+2012-12-06 : 15-08-25-053 Thread-1159 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-08-25-053 Thread-1159 t9 30 - d-处理信息头
+2012-12-06 : 15-08-25-053 Thread-1159 t9 30 - d-保存下载任务
+2012-12-06 : 15-08-25-054 Thread-1159 t9 30 - saveTasks-1
+2012-12-06 : 15-08-25-054 Thread-1159 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-08-45-038 Thread-1162 t9 30 - d-用户已在线
+2012-12-06 : 15-08-45-054 Thread-1163 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-08-45-054 Thread-1163 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-08-45-065 Thread-1162 t9 30 - d-发送请求<获取信息>:耗时:26
+2012-12-06 : 15-08-45-065 Thread-1162 t9 30 - d-开始读取信息
+2012-12-06 : 15-08-45-066 Thread-1162 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-08-45-066 Thread-1162 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-08-45-066 Thread-1162 t9 30 - d-读取的信息转json
+2012-12-06 : 15-08-45-066 Thread-1162 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-08-45-067 Thread-1162 t9 30 - d-处理信息头
+2012-12-06 : 15-08-45-067 Thread-1162 t9 30 - d-保存下载任务
+2012-12-06 : 15-08-45-067 Thread-1162 t9 30 - saveTasks-1
+2012-12-06 : 15-08-45-068 Thread-1162 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-09-05-038 Thread-1165 t9 30 - d-用户已在线
+2012-12-06 : 15-09-05-040 Thread-1166 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-09-05-040 Thread-1166 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-09-05-056 Thread-1165 t9 30 - d-发送请求<获取信息>:耗时:17
+2012-12-06 : 15-09-05-057 Thread-1165 t9 30 - d-开始读取信息
+2012-12-06 : 15-09-05-057 Thread-1165 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-09-05-057 Thread-1165 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 15-09-05-057 Thread-1165 t9 30 - d-读取的信息转json
+2012-12-06 : 15-09-05-057 Thread-1165 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-09-05-058 Thread-1165 t9 30 - d-处理信息头
+2012-12-06 : 15-09-05-058 Thread-1165 t9 30 - d-保存下载任务
+2012-12-06 : 15-09-05-058 Thread-1165 t9 30 - saveTasks-1
+2012-12-06 : 15-09-05-058 Thread-1165 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-09-25-039 Thread-1168 t9 30 - d-用户已在线
+2012-12-06 : 15-09-25-044 Thread-1169 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-09-25-044 Thread-1169 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-09-25-058 Thread-1168 t9 30 - d-发送请求<获取信息>:耗时:19
+2012-12-06 : 15-09-25-058 Thread-1168 t9 30 - d-开始读取信息
+2012-12-06 : 15-09-25-058 Thread-1168 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-09-25-058 Thread-1168 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-09-25-059 Thread-1168 t9 30 - d-读取的信息转json
+2012-12-06 : 15-09-25-059 Thread-1168 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-09-25-059 Thread-1168 t9 30 - d-处理信息头
+2012-12-06 : 15-09-25-059 Thread-1168 t9 30 - d-保存下载任务
+2012-12-06 : 15-09-25-060 Thread-1168 t9 30 - saveTasks-1
+2012-12-06 : 15-09-25-060 Thread-1168 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-09-45-042 Thread-1171 t9 30 - d-用户已在线
+2012-12-06 : 15-09-45-060 Thread-1172 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-09-45-060 Thread-1172 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-09-45-064 Thread-1171 t9 30 - d-发送请求<获取信息>:耗时:22
+2012-12-06 : 15-09-45-065 Thread-1171 t9 30 - d-开始读取信息
+2012-12-06 : 15-09-45-065 Thread-1171 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-09-45-065 Thread-1171 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-09-45-065 Thread-1171 t9 30 - d-读取的信息转json
+2012-12-06 : 15-09-45-066 Thread-1171 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-09-45-066 Thread-1171 t9 30 - d-处理信息头
+2012-12-06 : 15-09-45-066 Thread-1171 t9 30 - d-保存下载任务
+2012-12-06 : 15-09-45-066 Thread-1171 t9 30 - saveTasks-1
+2012-12-06 : 15-09-45-067 Thread-1171 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-10-05-055 Thread-1175 t9 30 - d-用户已在线
+2012-12-06 : 15-10-05-056 Thread-1177 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-10-05-056 Thread-1177 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-10-05-068 Thread-1175 t9 30 - d-发送请求<获取信息>:耗时:13
+2012-12-06 : 15-10-05-069 Thread-1175 t9 30 - d-开始读取信息
+2012-12-06 : 15-10-05-069 Thread-1175 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-10-05-069 Thread-1175 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-10-05-069 Thread-1175 t9 30 - d-读取的信息转json
+2012-12-06 : 15-10-05-069 Thread-1175 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-10-05-070 Thread-1175 t9 30 - d-处理信息头
+2012-12-06 : 15-10-05-070 Thread-1175 t9 30 - d-保存下载任务
+2012-12-06 : 15-10-05-070 Thread-1175 t9 30 - saveTasks-1
+2012-12-06 : 15-10-05-070 Thread-1175 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-10-25-057 Thread-1178 t9 30 - d-用户已在线
+2012-12-06 : 15-10-25-057 Thread-1180 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-10-25-057 Thread-1180 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-10-25-072 Thread-1178 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-06 : 15-10-25-072 Thread-1178 t9 30 - d-开始读取信息
+2012-12-06 : 15-10-25-072 Thread-1178 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-10-25-072 Thread-1178 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-10-25-073 Thread-1178 t9 30 - d-读取的信息转json
+2012-12-06 : 15-10-25-073 Thread-1178 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-10-25-073 Thread-1178 t9 30 - d-处理信息头
+2012-12-06 : 15-10-25-073 Thread-1178 t9 30 - d-保存下载任务
+2012-12-06 : 15-10-25-074 Thread-1178 t9 30 - saveTasks-1
+2012-12-06 : 15-10-25-074 Thread-1178 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-10-45-048 Thread-1182 t9 30 - d-用户已在线
+2012-12-06 : 15-10-45-063 Thread-1182 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-06 : 15-10-45-064 Thread-1182 t9 30 - d-开始读取信息
+2012-12-06 : 15-10-45-064 Thread-1182 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 15-10-45-064 Thread-1182 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 15-10-45-064 Thread-1182 t9 30 - d-读取的信息转json
+2012-12-06 : 15-10-45-065 Thread-1182 t9 30 - d-读取的信息转json成功
+2012-12-06 : 15-10-45-065 Thread-1182 t9 30 - d-处理信息头
+2012-12-06 : 15-10-45-065 Thread-1182 t9 30 - d-保存下载任务
+2012-12-06 : 15-10-45-066 Thread-1182 t9 30 - saveTasks-1
+2012-12-06 : 15-10-45-069 Thread-1182 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-10-45-082 Thread-1184 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-10-45-082 Thread-1184 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-11-38-806 Thread-9 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-11-38-812 Thread-9 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-11-39-908 Thread-7 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-11-39-993 Thread-7 t9 30 - d-登陆失败
+2012-12-06 : 15-11-58-547 Thread-16 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-11-58-565 Thread-16 t9 30 - d-登陆失败
+2012-12-06 : 15-11-58-578 Thread-18 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-11-58-578 Thread-18 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-12-18-540 Thread-19 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-12-18-545 Thread-21 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-12-18-550 Thread-21 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-12-18-558 Thread-19 t9 30 - d-登陆失败
+2012-12-06 : 15-12-38-544 Thread-23 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-12-38-544 Thread-24 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-12-38-545 Thread-24 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-12-38-559 Thread-23 t9 30 - d-登陆失败
+2012-12-06 : 15-12-58-558 Thread-26 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-12-58-562 Thread-27 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-12-58-562 Thread-27 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-12-58-573 Thread-26 t9 30 - d-登陆失败
+2012-12-06 : 15-13-18-546 Thread-29 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-13-18-548 Thread-31 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-13-18-549 Thread-31 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-13-18-564 Thread-29 t9 30 - d-登陆失败
+2012-12-06 : 15-13-38-546 Thread-32 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-13-38-549 Thread-34 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-13-38-550 Thread-34 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-13-38-558 Thread-32 t9 30 - d-登陆失败
+2012-12-06 : 15-13-58-556 Thread-35 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-13-58-559 Thread-37 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-13-58-560 Thread-37 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-13-58-576 Thread-35 t9 30 - d-登陆失败
+2012-12-06 : 15-14-18-548 Thread-38 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-14-18-555 Thread-40 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-14-18-556 Thread-40 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-14-18-564 Thread-38 t9 30 - d-登陆失败
+2012-12-06 : 15-14-38-553 Thread-42 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-14-38-579 Thread-42 t9 30 - d-登陆失败
+2012-12-06 : 15-14-38-580 Thread-43 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-14-38-581 Thread-43 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="HelloWorld">
+<description>
+  This is a sample Web Service.
+</description>
+<parameter name="ServiceClass" locked="false">test.HelloWorld</parameter>
+<operation name="sayHello">
+  <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+</operation>
+</service> 
+

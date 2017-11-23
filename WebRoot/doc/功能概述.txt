@@ -1,0 +1,159 @@
+# 功能概述
+
+- 待完成
+
+ * 个人事物-内部邮箱-附件上传-待完成
+
+ * 系统管理-工作流设置-设置表单-表单设计器-模块-待完成
+
+- 已完成
+
+ * 系统管理-用户管理-新建用户-chrome弹出框-IE关闭-完成
+    >/t9/WebRoot/core/funcs/person/usernew.jsp
+    >/t9/WebRoot/core/funcs/person/supportIframe.jsp
+    >/t9/WebRoot/core/funcs/person/indutypersoninput.jsp
+
+ * 接口-系统图标-数据库-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/WebRoot/sql/mobile_menu.sql
+
+ * 接口-系统图标-文档-获取系统图标|添加系统图标|删除系统图标-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx/系统图标
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx/系统图标/获取系统图标接口
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx/系统图标/添加系统图标接口
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx/系统图标/删除系统图标接口
+
+ * 接口-系统图标-列表-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/src/t9/mobile/menu/act/T9PdaMenuAct/data.act
+    /t9/src/t9/mobile/menu/logic/T9PdaMenuLogic/getMenu.act
+
+ * 接口-系统图标-详情-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/src/t9/mobile/menu/act/T9PdaMenuAct/data.act
+    /t9/src/t9/mobile/menu/logic/T9PdaMenuLogic/getMenu.act
+
+ * 接口-系统图标-添加-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/src/t9/mobile/menu/act/T9PdaMenuAct/add.act
+    /t9/src/t9/mobile/menu/logic/T9PdaMenuLogic/addMenu.act
+
+ * 接口-系统图标-删除-手机端菜单功能增加后台可配置项，包含：菜单名称、访问地址、图标-完成
+    >/t9/src/t9/mobile/menu/act/T9PdaMenuAct/delete.act
+    /t9/src/t9/mobile/menu/logic/T9PdaMenuLogic/deleteMenu.act
+
+ * 接口-登录-添加用户ID显示-文档|代码-完成
+    /t9/WebRoot/doc/OA_手机端接口地址.xlsx
+    /t9/src/t9/mobile/act/T9PdaLogin/login.act
+
+ * 接口-邮箱-发送邮箱-更改方法-不用上传，直接存到数据库-完成
+    >/t9/src/t9/mobile/email/act/T9PdaEmailAct/submit.act
+
+ * 接口-文档-修改邮箱附件Id和附件地址 | 修改下载附件，添加返回下载url-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 个人事物-个人考勤-手机考勤-左侧菜单显示-完成
+    >/t9/WebRoot/core/funcs/attendance/personal/attendInfo.jsp/loadData()
+    >/t9/WebRoot/core/funcs/attendance/personal/attendInfo.jsp/clickPriv()
+
+ * 个人事物-个人考勤-手机考勤-新增-模块-列表显示
+    >/t9/WebRoot/core/funcs/attendance/personal/selectAttendMobile.jsp
+    >/t9/src/t9/core/funcs/attendance/personal/act/T9AttendMobileAct/getUserMobileInfo.act
+    >/t9/src/t9/core/funcs/attendance/personal/act/T9AttendMobileAct/getAttendMobile.act
+    >/t9/src/t9/core/funcs/attendance/personal/logic/T9AttendMobileLogic/selectMobile.act
+
+ * 接口-新闻-点赞-添加-完成
+    >/t9/src/t9/mobile/news/act/T9PdaNewsAct/addLikes.act
+    >/t9/src/t9/mobile/news/logic/T9PdaNewsLogic/saveLikes.act
+
+ * 接口-新闻-点赞-列表-完成
+    >/t9/src/t9/mobile/news/act/T9PdaNewsAct/data.act
+    >/t9/src/t9/mobile/news/act/T9PdaNewsAct/read.act
+    >/t9/src/t9/mobile/news/logic/T9PdaNewsLogic/refreshList.act
+    >/t9/src/t9/mobile/news/logic/T9PdaNewsLogic/getNewsMap.act
+
+ * 接口-文档-新闻-点赞-添加/显示-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 个人事物-新闻-新闻详情-点赞-显示-完成
+    >/t9/WebRoot/core/funcs/news/show/readNews.jsp/loadData()
+    >/t9/src/t9/core/funcs/news/act/T9NewsShowAct/getnewsShowList.act
+    >/t9/src/t9/core/funcs/news/logic/T9NewsShowLogic/getnewsShowList.act
+    >/t9/src/t9/core/funcs/news/data/T9News/getLikes|setLikes1
+
+ * 个人事物-新闻-新闻详情-点赞-添加-完成
+    >/t9/WebRoot/core/funcs/news/show/readNews.jsp/likes()
+    >/t9/src/t9/core/funcs/news/act/T9NewsShowAct/likes.act
+    >/t9/src/t9/core/funcs/news/logic/T9NewsShowLogic/saveLikes
+    >/t9/src/t9/core/funcs/news/logic/T9NewsShowLogic/haveLikes
+    >/t9/src/t9/core/funcs/news/logic/T9NewsShowLogic/readLikes
+
+ * 个人事物-新闻-新闻详情-点赞-数据库-完成
+    >/t9/WebRoot/sql/news_20170410.sql
+
+ * 接口-用户-系统组织架构-完成
+    >/t9/src/t9/mobile/user/act/T9PdaDeptAct/companyStructure.act
+    /t9/src/t9/mobile/user/logic/T9PdaDeptLogic/getDeptTreeJson.act
+    /t9/src/t9/mobile/user/logic/T9PdaDeptLogic/getChildDept.act
+    /t9/src/t9/mobile/user/logic/T9PdaDeptLogic/getDeptTreeByPostDept.act
+
+ * 接口-用户-列表/详情-完成
+    /t9/src/t9/mobile/user/act/T9PdaPersonAct/data.act
+    /t9/src/t9/mobile/user/logic/T9PdaPersonLogic/getPerson.act
+
+ * 接口-文档-用户-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 接口文档-添加附件上传-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 接口-个人考勤-删除-完成
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceAct/delete.act
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceLogic/deleteAttend.act
+
+ * 接口-个人考勤-根据日期查询-完成
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceAct/data.act
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceLogic/getAttend.act
+
+ * 接口-个人考勤-删除/日期查询-文档-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 接口-个人考勤-列表-完成
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceAct/data.act
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceLogic/getAttend.act
+
+ * 接口-个人考勤-添加-完成
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceAct/addAttendMobile.act
+    >/t9/src/t9/mobile/attendance/act/T9PdaAttendanceLogic/addAttend.act
+
+ * 接口-个人考勤-添加/列表-文档-完成
+    >/t9/WebRoot/doc/OA_手机端接口地址.xlsx
+
+ * 接口-个人考勤-数据表-已完成
+    > /t9/WebRoot/sql/attend_mobile.sql  
+
+ * 接口-工作日志-列表/详情-日期格式化-完成
+
+ * 接口-新闻管理-列表/详情-返回json修改-完成
+
+ * 接口-工作日志-列表/详情-返回json修改-完成
+
+ * 接口-公告管理-列表/详情-返回json修改-完成
+
+ * 接口-新闻评论-列表/详情-返回json修改-完成
+
+ * 接口-通讯录-列表/详情/系统人员-返回json修改-完成
+
+ * 工作流-新建工作-快速新建-下一步-选择人员-关闭弹出框-谷歌/IE浏览器兼容问题-完成
+
+ * 个人事物-日程安排-查询-添加安排人条件-可以选择，我给别人安排日程列表，别人给安排的日程列表以及全部
+
+ * 个人事物-日程安排-查询-添加安排人条件-所有/自己给自己安排任务/我给别人安排任务/别人给我安排任务
+
+ * 谷歌/IE浏览器弹出框兼容-优化-完成
+    > /t9/WebRoot/core/funcs/doc/flowdesign/viewlist/select/FlowUserSelect.js  
+    > /t9/WebRoot/core/funcs/doc/flowrun/list/inputform/userSelect/MultiUserSelect.js
+    > /t9/WebRoot/core/funcs/doc/flowrun/list/others/MultiUserSelect.js
+    > /t9/WebRoot/core/funcs/doc/flowrun/list/others/userSelectPrcs.jsp
+    > /t9/WebRoot/core/funcs/doc/flowrun/list/turn/userSelect/flowUserSelect1.js
+    > /t9/WebRoot/core/funcs/doc/flowrun/list/turn/userSelect/FreeFlowUserSelect.js
+    > /t9/WebRoot/core/funcs/workflow/flowrun/list/selectData/js/index.js
+    > /t9/WebRoot/core/funcs/workflow/flowrun/list/turn/turnnext.jsp
+    > /t9/WebRoot/core/funcs/workflow/flowrun/list/turn/turnnext1.jsp
+    > /t9/WebRoot/core/funcs/workflow/flowrun/list/turn/turnnextfree.jsp

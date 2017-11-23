@@ -1,0 +1,1633 @@
+2012-12-06 : 14-44-45-078 Thread-923 t9 30 - d-无下载任务
+2012-12-06 : 14-45-04-872 Thread-927 t9 30 - d-用户已在线
+2012-12-06 : 14-45-04-882 Thread-927 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-45-04-882 Thread-927 t9 30 - d-开始读取信息
+2012-12-06 : 14-45-04-882 Thread-927 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-45-04-883 Thread-927 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-45-04-883 Thread-927 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-45-04-884 Thread-927 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：2
+2012-12-06 : 14-45-04-884 Thread-927 t9 30 - d-读取的信息转json
+2012-12-06 : 14-45-04-884 Thread-927 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-45-04-884 Thread-927 t9 30 - d-处理信息头
+2012-12-06 : 14-45-04-885 Thread-927 t9 30 - d-保存下载任务
+2012-12-06 : 14-45-04-885 Thread-927 t9 30 - saveTasks-1
+2012-12-06 : 14-45-04-885 Thread-927 t9 30 - saveTasks-2
+2012-12-06 : 14-45-04-886 Thread-927 t9 30 - saveTasks-3
+2012-12-06 : 14-45-04-886 Thread-927 t9 30 - saveTasks-4:
+2012-12-06 : 14-45-04-886 Thread-927 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-45-04-890 Thread-927 t9 30 - d-无下载任务
+2012-12-06 : 14-45-24-871 Thread-931 t9 30 - d-用户已在线
+2012-12-06 : 14-45-24-877 Thread-931 t9 30 - d-发送请求<获取信息>:耗时:6
+2012-12-06 : 14-45-24-877 Thread-931 t9 30 - d-开始读取信息
+2012-12-06 : 14-45-24-877 Thread-931 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-45-24-878 Thread-931 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-45-24-878 Thread-931 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-45-24-878 Thread-931 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-45-24-878 Thread-931 t9 30 - d-读取的信息转json
+2012-12-06 : 14-45-24-879 Thread-931 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-45-24-879 Thread-931 t9 30 - d-处理信息头
+2012-12-06 : 14-45-24-880 Thread-931 t9 30 - d-保存下载任务
+2012-12-06 : 14-45-24-880 Thread-931 t9 30 - saveTasks-1
+2012-12-06 : 14-45-24-880 Thread-931 t9 30 - saveTasks-2
+2012-12-06 : 14-45-24-880 Thread-931 t9 30 - saveTasks-3
+2012-12-06 : 14-45-24-880 Thread-931 t9 30 - saveTasks-4:
+2012-12-06 : 14-45-24-881 Thread-931 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-45-24-883 Thread-931 t9 30 - d-无下载任务
+2012-12-06 : 14-45-44-874 Thread-935 t9 30 - d-用户已在线
+2012-12-06 : 14-45-44-879 Thread-935 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-45-44-880 Thread-935 t9 30 - d-开始读取信息
+2012-12-06 : 14-45-44-880 Thread-935 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-45-44-880 Thread-935 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-45-44-880 Thread-935 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-45-44-880 Thread-935 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - d-读取的信息转json
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - d-处理信息头
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - d-保存下载任务
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - saveTasks-1
+2012-12-06 : 14-45-44-881 Thread-935 t9 30 - saveTasks-2
+2012-12-06 : 14-45-44-882 Thread-935 t9 30 - saveTasks-3
+2012-12-06 : 14-45-44-882 Thread-935 t9 30 - saveTasks-4:
+2012-12-06 : 14-45-44-882 Thread-935 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-45-44-883 Thread-935 t9 30 - d-无下载任务
+2012-12-06 : 14-46-04-873 Thread-938 t9 30 - d-用户已在线
+2012-12-06 : 14-46-04-879 Thread-938 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-46-04-879 Thread-938 t9 30 - d-开始读取信息
+2012-12-06 : 14-46-04-879 Thread-938 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-46-04-880 Thread-938 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-46-04-880 Thread-938 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-46-04-880 Thread-938 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-46-04-880 Thread-938 t9 30 - d-读取的信息转json
+2012-12-06 : 14-46-04-881 Thread-938 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-46-04-881 Thread-938 t9 30 - d-处理信息头
+2012-12-06 : 14-46-04-881 Thread-938 t9 30 - d-保存下载任务
+2012-12-06 : 14-46-04-881 Thread-938 t9 30 - saveTasks-1
+2012-12-06 : 14-46-04-881 Thread-938 t9 30 - saveTasks-2
+2012-12-06 : 14-46-04-882 Thread-938 t9 30 - saveTasks-3
+2012-12-06 : 14-46-04-882 Thread-938 t9 30 - saveTasks-4:
+2012-12-06 : 14-46-04-882 Thread-938 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-46-04-884 Thread-938 t9 30 - d-无下载任务
+2012-12-06 : 14-46-24-875 Thread-941 t9 30 - d-用户已在线
+2012-12-06 : 14-46-24-880 Thread-941 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-46-24-880 Thread-941 t9 30 - d-开始读取信息
+2012-12-06 : 14-46-24-881 Thread-941 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：1
+2012-12-06 : 14-46-24-881 Thread-941 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-46-24-881 Thread-941 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-46-24-881 Thread-941 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-46-24-881 Thread-941 t9 30 - d-读取的信息转json
+2012-12-06 : 14-46-24-882 Thread-941 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-46-24-882 Thread-941 t9 30 - d-处理信息头
+2012-12-06 : 14-46-24-882 Thread-941 t9 30 - d-保存下载任务
+2012-12-06 : 14-46-24-882 Thread-941 t9 30 - saveTasks-1
+2012-12-06 : 14-46-24-883 Thread-941 t9 30 - saveTasks-2
+2012-12-06 : 14-46-24-883 Thread-941 t9 30 - saveTasks-3
+2012-12-06 : 14-46-24-883 Thread-941 t9 30 - saveTasks-4:
+2012-12-06 : 14-46-24-883 Thread-941 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-46-24-885 Thread-941 t9 30 - d-无下载任务
+2012-12-06 : 14-46-44-877 Thread-944 t9 30 - d-用户已在线
+2012-12-06 : 14-46-44-882 Thread-944 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-46-44-882 Thread-944 t9 30 - d-开始读取信息
+2012-12-06 : 14-46-44-883 Thread-944 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：1
+2012-12-06 : 14-46-44-883 Thread-944 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-46-44-883 Thread-944 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-46-44-883 Thread-944 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-46-44-884 Thread-944 t9 30 - d-读取的信息转json
+2012-12-06 : 14-46-44-884 Thread-944 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-46-44-884 Thread-944 t9 30 - d-处理信息头
+2012-12-06 : 14-46-44-884 Thread-944 t9 30 - d-保存下载任务
+2012-12-06 : 14-46-44-884 Thread-944 t9 30 - saveTasks-1
+2012-12-06 : 14-46-44-885 Thread-944 t9 30 - saveTasks-2
+2012-12-06 : 14-46-44-885 Thread-944 t9 30 - saveTasks-3
+2012-12-06 : 14-46-44-885 Thread-944 t9 30 - saveTasks-4:
+2012-12-06 : 14-46-44-885 Thread-944 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-46-44-887 Thread-944 t9 30 - d-无下载任务
+2012-12-06 : 14-47-04-892 Thread-947 t9 30 - d-用户已在线
+2012-12-06 : 14-47-04-897 Thread-947 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-47-04-897 Thread-947 t9 30 - d-开始读取信息
+2012-12-06 : 14-47-04-898 Thread-947 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：1
+2012-12-06 : 14-47-04-898 Thread-947 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-47-04-898 Thread-947 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-47-04-898 Thread-947 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-47-04-898 Thread-947 t9 30 - d-读取的信息转json
+2012-12-06 : 14-47-04-899 Thread-947 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-47-04-899 Thread-947 t9 30 - d-处理信息头
+2012-12-06 : 14-47-04-899 Thread-947 t9 30 - d-保存下载任务
+2012-12-06 : 14-47-04-899 Thread-947 t9 30 - saveTasks-1
+2012-12-06 : 14-47-04-900 Thread-947 t9 30 - saveTasks-2
+2012-12-06 : 14-47-04-900 Thread-947 t9 30 - saveTasks-3
+2012-12-06 : 14-47-04-900 Thread-947 t9 30 - saveTasks-4:
+2012-12-06 : 14-47-04-900 Thread-947 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-47-04-903 Thread-947 t9 30 - d-无下载任务
+2012-12-06 : 14-47-24-887 Thread-950 t9 30 - d-用户已在线
+2012-12-06 : 14-47-24-892 Thread-950 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-47-24-892 Thread-950 t9 30 - d-开始读取信息
+2012-12-06 : 14-47-24-892 Thread-950 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-47-24-893 Thread-950 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-47-24-893 Thread-950 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-47-24-893 Thread-950 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-47-24-893 Thread-950 t9 30 - d-读取的信息转json
+2012-12-06 : 14-47-24-893 Thread-950 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-47-24-894 Thread-950 t9 30 - d-处理信息头
+2012-12-06 : 14-47-24-894 Thread-950 t9 30 - d-保存下载任务
+2012-12-06 : 14-47-24-894 Thread-950 t9 30 - saveTasks-1
+2012-12-06 : 14-47-24-894 Thread-950 t9 30 - saveTasks-2
+2012-12-06 : 14-47-24-894 Thread-950 t9 30 - saveTasks-3
+2012-12-06 : 14-47-24-895 Thread-950 t9 30 - saveTasks-4:
+2012-12-06 : 14-47-24-895 Thread-950 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-47-24-897 Thread-950 t9 30 - d-无下载任务
+2012-12-06 : 14-47-44-891 Thread-955 t9 30 - d-用户已在线
+2012-12-06 : 14-47-44-896 Thread-955 t9 30 - d-发送请求<获取信息>:耗时:4
+2012-12-06 : 14-47-44-897 Thread-955 t9 30 - d-开始读取信息
+2012-12-06 : 14-47-44-897 Thread-955 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-47-44-897 Thread-955 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-47-44-897 Thread-955 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-47-44-897 Thread-955 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-06 : 14-47-44-898 Thread-955 t9 30 - d-读取的信息转json
+2012-12-06 : 14-47-44-898 Thread-955 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-47-44-898 Thread-955 t9 30 - d-处理信息头
+2012-12-06 : 14-47-44-898 Thread-955 t9 30 - d-保存下载任务
+2012-12-06 : 14-47-44-899 Thread-955 t9 30 - saveTasks-1
+2012-12-06 : 14-47-44-899 Thread-955 t9 30 - saveTasks-2
+2012-12-06 : 14-47-44-899 Thread-955 t9 30 - saveTasks-3
+2012-12-06 : 14-47-44-899 Thread-955 t9 30 - saveTasks-4:
+2012-12-06 : 14-47-44-909 Thread-955 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-47-44-911 Thread-955 t9 30 - d-无下载任务
+2012-12-06 : 14-48-04-886 Thread-958 t9 30 - d-用户已在线
+2012-12-06 : 14-48-04-892 Thread-958 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-48-04-893 Thread-958 t9 30 - d-开始读取信息
+2012-12-06 : 14-48-04-893 Thread-958 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-48-04-893 Thread-958 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-48-04-893 Thread-958 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-48-04-894 Thread-958 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-48-04-894 Thread-958 t9 30 - d-读取的信息转json
+2012-12-06 : 14-48-04-894 Thread-958 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-48-04-894 Thread-958 t9 30 - d-处理信息头
+2012-12-06 : 14-48-04-895 Thread-958 t9 30 - d-保存下载任务
+2012-12-06 : 14-48-04-895 Thread-958 t9 30 - saveTasks-1
+2012-12-06 : 14-48-04-895 Thread-958 t9 30 - saveTasks-2
+2012-12-06 : 14-48-04-895 Thread-958 t9 30 - saveTasks-3
+2012-12-06 : 14-48-04-895 Thread-958 t9 30 - saveTasks-4:
+2012-12-06 : 14-48-04-896 Thread-958 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-48-04-898 Thread-958 t9 30 - d-无下载任务
+2012-12-06 : 14-48-24-888 Thread-961 t9 30 - d-用户已在线
+2012-12-06 : 14-48-24-892 Thread-961 t9 30 - d-发送请求<获取信息>:耗时:3
+2012-12-06 : 14-48-24-893 Thread-961 t9 30 - d-开始读取信息
+2012-12-06 : 14-48-24-893 Thread-961 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-48-24-893 Thread-961 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-48-24-893 Thread-961 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-48-24-894 Thread-961 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-48-24-894 Thread-961 t9 30 - d-读取的信息转json
+2012-12-06 : 14-48-24-894 Thread-961 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-48-24-894 Thread-961 t9 30 - d-处理信息头
+2012-12-06 : 14-48-24-894 Thread-961 t9 30 - d-保存下载任务
+2012-12-06 : 14-48-24-895 Thread-961 t9 30 - saveTasks-1
+2012-12-06 : 14-48-24-895 Thread-961 t9 30 - saveTasks-2
+2012-12-06 : 14-48-24-895 Thread-961 t9 30 - saveTasks-3
+2012-12-06 : 14-48-24-895 Thread-961 t9 30 - saveTasks-4:
+2012-12-06 : 14-48-24-895 Thread-961 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-48-24-897 Thread-961 t9 30 - d-无下载任务
+2012-12-06 : 14-48-44-906 Thread-964 t9 30 - d-用户已在线
+2012-12-06 : 14-48-44-911 Thread-964 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-48-44-911 Thread-964 t9 30 - d-开始读取信息
+2012-12-06 : 14-48-44-911 Thread-964 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-48-44-911 Thread-964 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-48-44-911 Thread-964 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - d-读取的信息转json
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - d-处理信息头
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - d-保存下载任务
+2012-12-06 : 14-48-44-912 Thread-964 t9 30 - saveTasks-1
+2012-12-06 : 14-48-44-913 Thread-964 t9 30 - saveTasks-2
+2012-12-06 : 14-48-44-913 Thread-964 t9 30 - saveTasks-3
+2012-12-06 : 14-48-44-913 Thread-964 t9 30 - saveTasks-4:
+2012-12-06 : 14-48-44-913 Thread-964 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-48-44-915 Thread-964 t9 30 - d-无下载任务
+2012-12-06 : 14-49-04-891 Thread-967 t9 30 - d-用户已在线
+2012-12-06 : 14-49-04-898 Thread-967 t9 30 - d-发送请求<获取信息>:耗时:6
+2012-12-06 : 14-49-04-898 Thread-967 t9 30 - d-开始读取信息
+2012-12-06 : 14-49-04-898 Thread-967 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-49-04-898 Thread-967 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-49-04-899 Thread-967 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-49-04-899 Thread-967 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-49-04-899 Thread-967 t9 30 - d-读取的信息转json
+2012-12-06 : 14-49-04-899 Thread-967 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-49-04-900 Thread-967 t9 30 - d-处理信息头
+2012-12-06 : 14-49-04-900 Thread-967 t9 30 - d-保存下载任务
+2012-12-06 : 14-49-04-900 Thread-967 t9 30 - saveTasks-1
+2012-12-06 : 14-49-04-900 Thread-967 t9 30 - saveTasks-2
+2012-12-06 : 14-49-04-900 Thread-967 t9 30 - saveTasks-3
+2012-12-06 : 14-49-04-901 Thread-967 t9 30 - saveTasks-4:
+2012-12-06 : 14-49-04-901 Thread-967 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-49-04-903 Thread-967 t9 30 - d-无下载任务
+2012-12-06 : 14-49-24-903 Thread-970 t9 30 - d-用户已在线
+2012-12-06 : 14-49-24-908 Thread-970 t9 30 - d-发送请求<获取信息>:耗时:4
+2012-12-06 : 14-49-24-909 Thread-970 t9 30 - d-开始读取信息
+2012-12-06 : 14-49-24-909 Thread-970 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-49-24-909 Thread-970 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-49-24-909 Thread-970 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-49-24-909 Thread-970 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-06 : 14-49-24-910 Thread-970 t9 30 - d-读取的信息转json
+2012-12-06 : 14-49-24-910 Thread-970 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-49-24-910 Thread-970 t9 30 - d-处理信息头
+2012-12-06 : 14-49-24-910 Thread-970 t9 30 - d-保存下载任务
+2012-12-06 : 14-49-24-911 Thread-970 t9 30 - saveTasks-1
+2012-12-06 : 14-49-24-911 Thread-970 t9 30 - saveTasks-2
+2012-12-06 : 14-49-24-911 Thread-970 t9 30 - saveTasks-3
+2012-12-06 : 14-49-24-911 Thread-970 t9 30 - saveTasks-4:
+2012-12-06 : 14-49-24-911 Thread-970 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-49-24-914 Thread-970 t9 30 - d-无下载任务
+2012-12-06 : 14-49-44-894 Thread-973 t9 30 - d-用户已在线
+2012-12-06 : 14-49-44-902 Thread-973 t9 30 - d-发送请求<获取信息>:耗时:7
+2012-12-06 : 14-49-44-903 Thread-973 t9 30 - d-开始读取信息
+2012-12-06 : 14-49-44-903 Thread-973 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-49-44-903 Thread-973 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-49-44-903 Thread-973 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-49-44-904 Thread-973 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-49-44-904 Thread-973 t9 30 - d-读取的信息转json
+2012-12-06 : 14-49-44-905 Thread-973 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-49-44-905 Thread-973 t9 30 - d-处理信息头
+2012-12-06 : 14-49-44-905 Thread-973 t9 30 - d-保存下载任务
+2012-12-06 : 14-49-44-905 Thread-973 t9 30 - saveTasks-1
+2012-12-06 : 14-49-44-906 Thread-973 t9 30 - saveTasks-2
+2012-12-06 : 14-49-44-906 Thread-973 t9 30 - saveTasks-3
+2012-12-06 : 14-49-44-906 Thread-973 t9 30 - saveTasks-4:
+2012-12-06 : 14-49-44-906 Thread-973 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-49-44-909 Thread-973 t9 30 - d-无下载任务
+2012-12-06 : 14-50-04-897 Thread-978 t9 30 - d-用户已在线
+2012-12-06 : 14-50-04-903 Thread-978 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-50-04-904 Thread-978 t9 30 - d-开始读取信息
+2012-12-06 : 14-50-04-904 Thread-978 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-50-04-904 Thread-978 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-50-04-904 Thread-978 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-50-04-904 Thread-978 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-06 : 14-50-04-905 Thread-978 t9 30 - d-读取的信息转json
+2012-12-06 : 14-50-04-905 Thread-978 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-50-04-905 Thread-978 t9 30 - d-处理信息头
+2012-12-06 : 14-50-04-905 Thread-978 t9 30 - d-保存下载任务
+2012-12-06 : 14-50-04-905 Thread-978 t9 30 - saveTasks-1
+2012-12-06 : 14-50-04-906 Thread-978 t9 30 - saveTasks-2
+2012-12-06 : 14-50-04-906 Thread-978 t9 30 - saveTasks-3
+2012-12-06 : 14-50-04-906 Thread-978 t9 30 - saveTasks-4:
+2012-12-06 : 14-50-04-906 Thread-978 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-50-04-908 Thread-978 t9 30 - d-无下载任务
+2012-12-06 : 14-50-24-910 Thread-983 t9 30 - d-用户已在线
+2012-12-06 : 14-50-24-915 Thread-983 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-50-24-915 Thread-983 t9 30 - d-开始读取信息
+2012-12-06 : 14-50-24-915 Thread-983 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-50-24-916 Thread-983 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-50-24-916 Thread-983 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-50-24-916 Thread-983 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-50-24-916 Thread-983 t9 30 - d-读取的信息转json
+2012-12-06 : 14-50-24-917 Thread-983 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-50-24-917 Thread-983 t9 30 - d-处理信息头
+2012-12-06 : 14-50-24-917 Thread-983 t9 30 - d-保存下载任务
+2012-12-06 : 14-50-24-918 Thread-983 t9 30 - saveTasks-1
+2012-12-06 : 14-50-24-918 Thread-983 t9 30 - saveTasks-2
+2012-12-06 : 14-50-24-918 Thread-983 t9 30 - saveTasks-3
+2012-12-06 : 14-50-24-918 Thread-983 t9 30 - saveTasks-4:
+2012-12-06 : 14-50-24-919 Thread-983 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-50-24-921 Thread-983 t9 30 - d-无下载任务
+2012-12-06 : 14-50-44-901 Thread-986 t9 30 - d-用户已在线
+2012-12-06 : 14-50-44-907 Thread-986 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-50-44-908 Thread-986 t9 30 - d-开始读取信息
+2012-12-06 : 14-50-44-908 Thread-986 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-50-44-908 Thread-986 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-50-44-909 Thread-986 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-50-44-909 Thread-986 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-50-44-909 Thread-986 t9 30 - d-读取的信息转json
+2012-12-06 : 14-50-44-910 Thread-986 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-50-44-910 Thread-986 t9 30 - d-处理信息头
+2012-12-06 : 14-50-44-910 Thread-986 t9 30 - d-保存下载任务
+2012-12-06 : 14-50-44-911 Thread-986 t9 30 - saveTasks-1
+2012-12-06 : 14-50-44-911 Thread-986 t9 30 - saveTasks-2
+2012-12-06 : 14-50-44-911 Thread-986 t9 30 - saveTasks-3
+2012-12-06 : 14-50-44-911 Thread-986 t9 30 - saveTasks-4:
+2012-12-06 : 14-50-44-912 Thread-986 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-50-44-914 Thread-986 t9 30 - d-无下载任务
+2012-12-06 : 14-51-04-904 Thread-989 t9 30 - d-用户已在线
+2012-12-06 : 14-51-04-910 Thread-989 t9 30 - d-发送请求<获取信息>:耗时:6
+2012-12-06 : 14-51-04-910 Thread-989 t9 30 - d-开始读取信息
+2012-12-06 : 14-51-04-910 Thread-989 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-51-04-910 Thread-989 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-51-04-911 Thread-989 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-51-04-911 Thread-989 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-51-04-911 Thread-989 t9 30 - d-读取的信息转json
+2012-12-06 : 14-51-04-911 Thread-989 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - d-处理信息头
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - d-保存下载任务
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - saveTasks-1
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - saveTasks-2
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - saveTasks-3
+2012-12-06 : 14-51-04-912 Thread-989 t9 30 - saveTasks-4:
+2012-12-06 : 14-51-04-913 Thread-989 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-51-04-914 Thread-989 t9 30 - d-无下载任务
+2012-12-06 : 14-51-24-906 Thread-992 t9 30 - d-用户已在线
+2012-12-06 : 14-51-24-912 Thread-992 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-51-24-912 Thread-992 t9 30 - d-开始读取信息
+2012-12-06 : 14-51-24-912 Thread-992 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-51-24-913 Thread-992 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-51-24-913 Thread-992 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-51-24-913 Thread-992 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-51-24-913 Thread-992 t9 30 - d-读取的信息转json
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - d-处理信息头
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - d-保存下载任务
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - saveTasks-1
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - saveTasks-2
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - saveTasks-3
+2012-12-06 : 14-51-24-914 Thread-992 t9 30 - saveTasks-4:
+2012-12-06 : 14-51-24-915 Thread-992 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-51-24-917 Thread-992 t9 30 - d-无下载任务
+2012-12-06 : 14-51-44-907 Thread-995 t9 30 - d-用户已在线
+2012-12-06 : 14-51-44-911 Thread-995 t9 30 - d-发送请求<获取信息>:耗时:4
+2012-12-06 : 14-51-44-912 Thread-995 t9 30 - d-开始读取信息
+2012-12-06 : 14-51-44-912 Thread-995 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-51-44-912 Thread-995 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-51-44-912 Thread-995 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-51-44-913 Thread-995 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-51-44-913 Thread-995 t9 30 - d-读取的信息转json
+2012-12-06 : 14-51-44-913 Thread-995 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - d-处理信息头
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - d-保存下载任务
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - saveTasks-1
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - saveTasks-2
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - saveTasks-3
+2012-12-06 : 14-51-44-914 Thread-995 t9 30 - saveTasks-4:
+2012-12-06 : 14-51-44-915 Thread-995 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-51-44-917 Thread-995 t9 30 - d-无下载任务
+2012-12-06 : 14-52-04-906 Thread-998 t9 30 - d-用户已在线
+2012-12-06 : 14-52-04-912 Thread-998 t9 30 - d-发送请求<获取信息>:耗时:6
+2012-12-06 : 14-52-04-912 Thread-998 t9 30 - d-开始读取信息
+2012-12-06 : 14-52-04-912 Thread-998 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-52-04-912 Thread-998 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-52-04-913 Thread-998 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-52-04-913 Thread-998 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-52-04-913 Thread-998 t9 30 - d-读取的信息转json
+2012-12-06 : 14-52-04-913 Thread-998 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - d-处理信息头
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - d-保存下载任务
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - saveTasks-1
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - saveTasks-2
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - saveTasks-3
+2012-12-06 : 14-52-04-914 Thread-998 t9 30 - saveTasks-4:
+2012-12-06 : 14-52-04-915 Thread-998 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-52-04-917 Thread-998 t9 30 - d-无下载任务
+2012-12-06 : 14-52-24-920 Thread-1001 t9 30 - d-用户已在线
+2012-12-06 : 14-52-24-926 Thread-1001 t9 30 - d-发送请求<获取信息>:耗时:6
+2012-12-06 : 14-52-24-927 Thread-1001 t9 30 - d-开始读取信息
+2012-12-06 : 14-52-24-927 Thread-1001 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-52-24-927 Thread-1001 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-52-24-928 Thread-1001 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-52-24-928 Thread-1001 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-52-24-928 Thread-1001 t9 30 - d-读取的信息转json
+2012-12-06 : 14-52-24-928 Thread-1001 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-52-24-928 Thread-1001 t9 30 - d-处理信息头
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - d-保存下载任务
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - saveTasks-1
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - saveTasks-2
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - saveTasks-3
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - saveTasks-4:
+2012-12-06 : 14-52-24-929 Thread-1001 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-52-24-932 Thread-1001 t9 30 - d-无下载任务
+2012-12-06 : 14-52-44-910 Thread-1004 t9 30 - d-用户已在线
+2012-12-06 : 14-52-44-917 Thread-1004 t9 30 - d-发送请求<获取信息>:耗时:7
+2012-12-06 : 14-52-44-918 Thread-1004 t9 30 - d-开始读取信息
+2012-12-06 : 14-52-44-918 Thread-1004 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-52-44-918 Thread-1004 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-52-44-919 Thread-1004 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-52-44-919 Thread-1004 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-06 : 14-52-44-919 Thread-1004 t9 30 - d-读取的信息转json
+2012-12-06 : 14-52-44-920 Thread-1004 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-52-44-920 Thread-1004 t9 30 - d-处理信息头
+2012-12-06 : 14-52-44-920 Thread-1004 t9 30 - d-保存下载任务
+2012-12-06 : 14-52-44-920 Thread-1004 t9 30 - saveTasks-1
+2012-12-06 : 14-52-44-921 Thread-1004 t9 30 - saveTasks-2
+2012-12-06 : 14-52-44-921 Thread-1004 t9 30 - saveTasks-3
+2012-12-06 : 14-52-44-921 Thread-1004 t9 30 - saveTasks-4:
+2012-12-06 : 14-52-44-922 Thread-1004 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-52-44-924 Thread-1004 t9 30 - d-无下载任务
+2012-12-06 : 14-53-04-913 Thread-1009 t9 30 - d-用户已在线
+2012-12-06 : 14-53-04-918 Thread-1009 t9 30 - d-发送请求<获取信息>:耗时:5
+2012-12-06 : 14-53-04-919 Thread-1009 t9 30 - d-开始读取信息
+2012-12-06 : 14-53-04-919 Thread-1009 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-06 : 14-53-04-919 Thread-1009 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-06 : 14-53-04-919 Thread-1009 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-06 : 14-53-04-919 Thread-1009 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-06 : 14-53-04-920 Thread-1009 t9 30 - d-读取的信息转json
+2012-12-06 : 14-53-04-920 Thread-1009 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - d-处理信息头
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - d-保存下载任务
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - saveTasks-1
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - saveTasks-2
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - saveTasks-3
+2012-12-06 : 14-53-04-921 Thread-1009 t9 30 - saveTasks-4:
+2012-12-06 : 14-53-04-922 Thread-1009 t9 30 - d-保存下载任务成功
+2012-12-06 : 14-53-04-923 Thread-1009 t9 30 - d-无下载任务
+2012-12-06 : 14-53-24-913 Thread-1012 t9 30 - d-用户已在线
+2012-12-06 : 14-53-26-919 Thread-1013 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-53-26-920 Thread-1013 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-53-26-929 Thread-1012 t9 30 - d-发送请求<获取信息>:耗时:2016
+2012-12-06 : 14-53-26-929 Thread-1012 t9 30 - d-开始读取信息
+2012-12-06 : 14-53-26-930 Thread-1012 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-53-26-930 Thread-1012 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-53-26-930 Thread-1012 t9 30 - d-读取的信息转json
+2012-12-06 : 14-53-26-930 Thread-1012 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-53-26-930 Thread-1012 t9 30 - d-处理信息头
+2012-12-06 : 14-53-26-931 Thread-1012 t9 30 - d-保存下载任务
+2012-12-06 : 14-53-26-931 Thread-1012 t9 30 - saveTasks-1
+2012-12-06 : 14-53-26-935 Thread-1012 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-53-44-915 Thread-1015 t9 30 - d-用户已在线
+2012-12-06 : 14-53-46-938 Thread-1015 t9 30 - d-发送请求<获取信息>:耗时:2023
+2012-12-06 : 14-53-46-938 Thread-1015 t9 30 - d-开始读取信息
+2012-12-06 : 14-53-46-939 Thread-1015 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-53-46-939 Thread-1015 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-53-46-939 Thread-1015 t9 30 - d-读取的信息转json
+2012-12-06 : 14-53-46-940 Thread-1015 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-53-46-940 Thread-1015 t9 30 - d-处理信息头
+2012-12-06 : 14-53-46-940 Thread-1015 t9 30 - d-保存下载任务
+2012-12-06 : 14-53-46-940 Thread-1015 t9 30 - saveTasks-1
+2012-12-06 : 14-53-46-941 Thread-1015 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-53-46-942 Thread-1016 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-53-46-942 Thread-1016 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-54-04-937 Thread-1018 t9 30 - d-用户已在线
+2012-12-06 : 14-54-06-942 Thread-1019 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-54-06-942 Thread-1019 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-54-06-962 Thread-1018 t9 30 - d-发送请求<获取信息>:耗时:2025
+2012-12-06 : 14-54-06-963 Thread-1018 t9 30 - d-开始读取信息
+2012-12-06 : 14-54-06-963 Thread-1018 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-54-06-963 Thread-1018 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-54-06-963 Thread-1018 t9 30 - d-读取的信息转json
+2012-12-06 : 14-54-06-964 Thread-1018 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-54-06-964 Thread-1018 t9 30 - d-处理信息头
+2012-12-06 : 14-54-06-964 Thread-1018 t9 30 - d-保存下载任务
+2012-12-06 : 14-54-06-964 Thread-1018 t9 30 - saveTasks-1
+2012-12-06 : 14-54-06-964 Thread-1018 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-54-24-917 Thread-1021 t9 30 - d-用户已在线
+2012-12-06 : 14-54-26-923 Thread-1022 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-54-26-924 Thread-1022 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-54-26-926 Thread-1021 t9 30 - d-发送请求<获取信息>:耗时:2008
+2012-12-06 : 14-54-26-927 Thread-1021 t9 30 - d-开始读取信息
+2012-12-06 : 14-54-26-927 Thread-1021 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-54-26-927 Thread-1021 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-54-26-927 Thread-1021 t9 30 - d-读取的信息转json
+2012-12-06 : 14-54-26-928 Thread-1021 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-54-26-928 Thread-1021 t9 30 - d-处理信息头
+2012-12-06 : 14-54-26-928 Thread-1021 t9 30 - d-保存下载任务
+2012-12-06 : 14-54-26-928 Thread-1021 t9 30 - saveTasks-1
+2012-12-06 : 14-54-26-929 Thread-1021 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-54-44-920 Thread-1024 t9 30 - d-用户已在线
+2012-12-06 : 14-54-46-926 Thread-1025 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-54-46-927 Thread-1025 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-54-46-931 Thread-1024 t9 30 - d-发送请求<获取信息>:耗时:2010
+2012-12-06 : 14-54-46-931 Thread-1024 t9 30 - d-开始读取信息
+2012-12-06 : 14-54-46-932 Thread-1024 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-54-46-932 Thread-1024 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-54-46-932 Thread-1024 t9 30 - d-读取的信息转json
+2012-12-06 : 14-54-46-933 Thread-1024 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-54-46-933 Thread-1024 t9 30 - d-处理信息头
+2012-12-06 : 14-54-46-933 Thread-1024 t9 30 - d-保存下载任务
+2012-12-06 : 14-54-46-934 Thread-1024 t9 30 - saveTasks-1
+2012-12-06 : 14-54-46-935 Thread-1024 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-54-46-937 Thread-1026 t9.core.esb.server.task.T9EsbServerTasksBack 47 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.core.esb.server.task.T9EsbServerTasksBack.doTask(T9EsbServerTasksBack.java:30)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 19 more
+2012-12-06 : 14-55-04-930 Thread-1028 t9 30 - d-用户已在线
+2012-12-06 : 14-55-06-935 Thread-1029 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-55-06-935 Thread-1029 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-55-06-939 Thread-1028 t9 30 - d-发送请求<获取信息>:耗时:2009
+2012-12-06 : 14-55-06-939 Thread-1028 t9 30 - d-开始读取信息
+2012-12-06 : 14-55-06-939 Thread-1028 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-55-06-940 Thread-1028 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-55-06-940 Thread-1028 t9 30 - d-读取的信息转json
+2012-12-06 : 14-55-06-940 Thread-1028 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-55-06-940 Thread-1028 t9 30 - d-处理信息头
+2012-12-06 : 14-55-06-940 Thread-1028 t9 30 - d-保存下载任务
+2012-12-06 : 14-55-06-941 Thread-1028 t9 30 - saveTasks-1
+2012-12-06 : 14-55-06-941 Thread-1028 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-55-24-933 Thread-1032 t9 30 - d-用户已在线
+2012-12-06 : 14-55-26-943 Thread-1033 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-55-26-943 Thread-1033 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-55-26-948 Thread-1032 t9 30 - d-发送请求<获取信息>:耗时:2013
+2012-12-06 : 14-55-26-948 Thread-1032 t9 30 - d-开始读取信息
+2012-12-06 : 14-55-26-948 Thread-1032 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-55-26-948 Thread-1032 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-55-26-948 Thread-1032 t9 30 - d-读取的信息转json
+2012-12-06 : 14-55-26-949 Thread-1032 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-55-26-949 Thread-1032 t9 30 - d-处理信息头
+2012-12-06 : 14-55-26-949 Thread-1032 t9 30 - d-保存下载任务
+2012-12-06 : 14-55-26-949 Thread-1032 t9 30 - saveTasks-1
+2012-12-06 : 14-55-26-950 Thread-1032 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-55-44-953 Thread-1035 t9 30 - d-用户已在线
+2012-12-06 : 14-55-46-958 Thread-1037 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-55-46-958 Thread-1037 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-55-46-972 Thread-1035 t9 30 - d-发送请求<获取信息>:耗时:2019
+2012-12-06 : 14-55-46-972 Thread-1035 t9 30 - d-开始读取信息
+2012-12-06 : 14-55-46-972 Thread-1035 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-55-46-973 Thread-1035 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-55-46-973 Thread-1035 t9 30 - d-读取的信息转json
+2012-12-06 : 14-55-46-973 Thread-1035 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-55-46-973 Thread-1035 t9 30 - d-处理信息头
+2012-12-06 : 14-55-46-973 Thread-1035 t9 30 - d-保存下载任务
+2012-12-06 : 14-55-46-974 Thread-1035 t9 30 - saveTasks-1
+2012-12-06 : 14-55-46-974 Thread-1035 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-56-04-975 Thread-1039 t9 30 - d-用户已在线
+2012-12-06 : 14-56-06-992 Thread-1039 t9 30 - d-发送请求<获取信息>:耗时:2010
+2012-12-06 : 14-56-06-992 Thread-1039 t9 30 - d-开始读取信息
+2012-12-06 : 14-56-06-992 Thread-1039 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-56-06-992 Thread-1039 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-56-06-992 Thread-1039 t9 30 - d-读取的信息转json
+2012-12-06 : 14-56-06-993 Thread-1039 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-56-06-993 Thread-1039 t9 30 - d-处理信息头
+2012-12-06 : 14-56-06-993 Thread-1039 t9 30 - d-保存下载任务
+2012-12-06 : 14-56-06-993 Thread-1039 t9 30 - saveTasks-1
+2012-12-06 : 14-56-06-994 Thread-1039 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-56-06-995 Thread-1041 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-56-06-996 Thread-1041 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-56-24-980 Thread-1042 t9 30 - d-用户已在线
+2012-12-06 : 14-56-27-006 Thread-1044 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-56-27-006 Thread-1044 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-56-27-011 Thread-1042 t9 30 - d-发送请求<获取信息>:耗时:2031
+2012-12-06 : 14-56-27-011 Thread-1042 t9 30 - d-开始读取信息
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-读取的信息转json
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-处理信息头
+2012-12-06 : 14-56-27-012 Thread-1042 t9 30 - d-保存下载任务
+2012-12-06 : 14-56-27-013 Thread-1042 t9 30 - saveTasks-1
+2012-12-06 : 14-56-27-013 Thread-1042 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-56-44-974 Thread-1045 t9 30 - d-用户已在线
+2012-12-06 : 14-56-46-987 Thread-1047 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-56-46-988 Thread-1047 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-56-46-993 Thread-1045 t9 30 - d-发送请求<获取信息>:耗时:2019
+2012-12-06 : 14-56-46-993 Thread-1045 t9 30 - d-开始读取信息
+2012-12-06 : 14-56-46-993 Thread-1045 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-56-46-993 Thread-1045 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-56-46-993 Thread-1045 t9 30 - d-读取的信息转json
+2012-12-06 : 14-56-46-994 Thread-1045 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-56-46-994 Thread-1045 t9 30 - d-处理信息头
+2012-12-06 : 14-56-46-994 Thread-1045 t9 30 - d-保存下载任务
+2012-12-06 : 14-56-46-994 Thread-1045 t9 30 - saveTasks-1
+2012-12-06 : 14-56-46-995 Thread-1045 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-57-04-976 Thread-1048 t9 30 - d-用户已在线
+2012-12-06 : 14-57-07-000 Thread-1050 t9 30 - ua-自动上传线程报错：Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+2012-12-06 : 14-57-07-000 Thread-1050 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor45.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1148)
+	at org.apache.commons.dbcp.AbandonedObjectPool.borrowObject(AbandonedObjectPool.java:79)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at t9.core.data.T9RequestDbConn.getDbConn(T9RequestDbConn.java:65)
+	at t9.core.data.T9RequestDbConn.getSysDbConn(T9RequestDbConn.java:90)
+	at t9.user.api.core.db.T9DbconnWrap.getSysDbConn(T9DbconnWrap.java:93)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:25)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 21 more
+2012-12-06 : 14-57-07-042 Thread-1048 t9 30 - d-发送请求<获取信息>:耗时:2066
+2012-12-06 : 14-57-07-042 Thread-1048 t9 30 - d-开始读取信息
+2012-12-06 : 14-57-07-042 Thread-1048 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-57-07-042 Thread-1048 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-57-07-043 Thread-1048 t9 30 - d-读取的信息转json
+2012-12-06 : 14-57-07-043 Thread-1048 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-57-07-046 Thread-1048 t9 30 - d-处理信息头
+2012-12-06 : 14-57-07-046 Thread-1048 t9 30 - d-保存下载任务
+2012-12-06 : 14-57-07-047 Thread-1048 t9 30 - saveTasks-1
+2012-12-06 : 14-57-07-047 Thread-1048 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-57-24-974 Thread-1051 t9 30 - d-用户已在线
+2012-12-06 : 14-57-25-006 Thread-1053 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-57-25-006 Thread-1053 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-57-25-018 Thread-1051 t9 30 - d-发送请求<获取信息>:耗时:43
+2012-12-06 : 14-57-25-018 Thread-1051 t9 30 - d-开始读取信息
+2012-12-06 : 14-57-25-018 Thread-1051 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-57-25-019 Thread-1051 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-57-25-019 Thread-1051 t9 30 - d-读取的信息转json
+2012-12-06 : 14-57-25-019 Thread-1051 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-57-25-019 Thread-1051 t9 30 - d-处理信息头
+2012-12-06 : 14-57-25-019 Thread-1051 t9 30 - d-保存下载任务
+2012-12-06 : 14-57-25-020 Thread-1051 t9 30 - saveTasks-1
+2012-12-06 : 14-57-25-020 Thread-1051 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-57-44-977 Thread-1054 t9 30 - d-用户已在线
+2012-12-06 : 14-57-44-991 Thread-1056 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-57-44-992 Thread-1056 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-57-44-998 Thread-1054 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 14-57-44-998 Thread-1054 t9 30 - d-开始读取信息
+2012-12-06 : 14-57-44-999 Thread-1054 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-57-44-999 Thread-1054 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-57-44-999 Thread-1054 t9 30 - d-读取的信息转json
+2012-12-06 : 14-57-44-999 Thread-1054 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-57-44-999 Thread-1054 t9 30 - d-处理信息头
+2012-12-06 : 14-57-45-000 Thread-1054 t9 30 - d-保存下载任务
+2012-12-06 : 14-57-45-000 Thread-1054 t9 30 - saveTasks-1
+2012-12-06 : 14-57-45-000 Thread-1054 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-58-04-978 Thread-1058 t9 30 - d-用户已在线
+2012-12-06 : 14-58-04-995 Thread-1060 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-58-04-995 Thread-1060 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-58-04-999 Thread-1058 t9 30 - d-发送请求<获取信息>:耗时:20
+2012-12-06 : 14-58-04-999 Thread-1058 t9 30 - d-开始读取信息
+2012-12-06 : 14-58-04-999 Thread-1058 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-58-04-999 Thread-1058 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-58-05-000 Thread-1058 t9 30 - d-读取的信息转json
+2012-12-06 : 14-58-05-000 Thread-1058 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-58-05-000 Thread-1058 t9 30 - d-处理信息头
+2012-12-06 : 14-58-05-000 Thread-1058 t9 30 - d-保存下载任务
+2012-12-06 : 14-58-05-000 Thread-1058 t9 30 - saveTasks-1
+2012-12-06 : 14-58-05-001 Thread-1058 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-58-24-980 Thread-1061 t9 30 - d-用户已在线
+2012-12-06 : 14-58-24-993 Thread-1063 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-58-24-994 Thread-1063 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-58-25-002 Thread-1061 t9 30 - d-发送请求<获取信息>:耗时:21
+2012-12-06 : 14-58-25-002 Thread-1061 t9 30 - d-开始读取信息
+2012-12-06 : 14-58-25-002 Thread-1061 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-58-25-002 Thread-1061 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-58-25-003 Thread-1061 t9 30 - d-读取的信息转json
+2012-12-06 : 14-58-25-003 Thread-1061 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-58-25-003 Thread-1061 t9 30 - d-处理信息头
+2012-12-06 : 14-58-25-003 Thread-1061 t9 30 - d-保存下载任务
+2012-12-06 : 14-58-25-003 Thread-1061 t9 30 - saveTasks-1
+2012-12-06 : 14-58-25-004 Thread-1061 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-58-44-983 Thread-1064 t9 30 - d-用户已在线
+2012-12-06 : 14-58-44-993 Thread-1066 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-58-44-995 Thread-1066 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-58-45-002 Thread-1064 t9 30 - d-发送请求<获取信息>:耗时:18
+2012-12-06 : 14-58-45-002 Thread-1064 t9 30 - d-开始读取信息
+2012-12-06 : 14-58-45-002 Thread-1064 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-58-45-002 Thread-1064 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：0
+2012-12-06 : 14-58-45-003 Thread-1064 t9 30 - d-读取的信息转json
+2012-12-06 : 14-58-45-003 Thread-1064 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-58-45-003 Thread-1064 t9 30 - d-处理信息头
+2012-12-06 : 14-58-45-003 Thread-1064 t9 30 - d-保存下载任务
+2012-12-06 : 14-58-45-003 Thread-1064 t9 30 - saveTasks-1
+2012-12-06 : 14-58-45-004 Thread-1064 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-59-04-984 Thread-1067 t9 30 - d-用户已在线
+2012-12-06 : 14-59-04-992 Thread-1069 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-59-04-993 Thread-1069 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-59-05-007 Thread-1067 t9 30 - d-发送请求<获取信息>:耗时:23
+2012-12-06 : 14-59-05-007 Thread-1067 t9 30 - d-开始读取信息
+2012-12-06 : 14-59-05-007 Thread-1067 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-59-05-008 Thread-1067 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-59-05-008 Thread-1067 t9 30 - d-读取的信息转json
+2012-12-06 : 14-59-05-008 Thread-1067 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-59-05-008 Thread-1067 t9 30 - d-处理信息头
+2012-12-06 : 14-59-05-008 Thread-1067 t9 30 - d-保存下载任务
+2012-12-06 : 14-59-05-009 Thread-1067 t9 30 - saveTasks-1
+2012-12-06 : 14-59-05-010 Thread-1067 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-59-24-983 Thread-1070 t9 30 - d-用户已在线
+2012-12-06 : 14-59-24-986 Thread-1072 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-59-24-987 Thread-1072 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-59-24-999 Thread-1070 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-06 : 14-59-24-999 Thread-1070 t9 30 - d-开始读取信息
+2012-12-06 : 14-59-25-000 Thread-1070 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 14-59-25-000 Thread-1070 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-59-25-000 Thread-1070 t9 30 - d-读取的信息转json
+2012-12-06 : 14-59-25-000 Thread-1070 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-59-25-000 Thread-1070 t9 30 - d-处理信息头
+2012-12-06 : 14-59-25-001 Thread-1070 t9 30 - d-保存下载任务
+2012-12-06 : 14-59-25-001 Thread-1070 t9 30 - saveTasks-1
+2012-12-06 : 14-59-25-001 Thread-1070 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 14-59-44-996 Thread-1074 t9 30 - d-用户已在线
+2012-12-06 : 14-59-44-997 Thread-1075 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 14-59-44-998 Thread-1075 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 14-59-45-012 Thread-1074 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-06 : 14-59-45-012 Thread-1074 t9 30 - d-开始读取信息
+2012-12-06 : 14-59-45-013 Thread-1074 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：0
+2012-12-06 : 14-59-45-013 Thread-1074 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1
+2012-12-06 : 14-59-45-013 Thread-1074 t9 30 - d-读取的信息转json
+2012-12-06 : 14-59-45-014 Thread-1074 t9 30 - d-读取的信息转json成功
+2012-12-06 : 14-59-45-014 Thread-1074 t9 30 - d-处理信息头
+2012-12-06 : 14-59-45-014 Thread-1074 t9 30 - d-保存下载任务
+2012-12-06 : 14-59-45-014 Thread-1074 t9 30 - saveTasks-1
+2012-12-06 : 14-59-45-015 Thread-1074 t9 30 - d-保存下载任务报错：null
+2012-12-06 : 15-00-04-986 Thread-1078 t9 30 - d-用户已在线
+2012-12-06 : 15-00-05-010 Thread-1079 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-00-05-011 Thread-1079 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor49.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-00-05-014 Thread-1078 t9 30 - d-发送请求<获取信息>:耗时:27
+2012-12-06 : 15-00-05-014 Thread-1078 t9 30 - d-开始读取信息
+2012-12-06 : 15-00-05-015 Thread-1078 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，耗时：1
+2012-12-06 : 15-00-05-015 Thread-1078 t9 30 - d-读取：
+
+
+{"rtState":"0", "rtMsrg":"", "rtData":""}，总耗时：1

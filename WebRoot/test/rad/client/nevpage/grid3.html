@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/t9/core/styles/style1/css/views.css" type="text/css" />
+<link rel="stylesheet" href="/t9/core/styles/style1/css/style.css" type="text/css" />
+<script type="text/Javascript" src="/t9/core/js/datastructs.js"></script>
+<script type="text/Javascript" src="/t9/core/js/sys.js" ></script>
+<script type="text/Javascript" src="/t9/core/js/prototype.js" ></script>
+<script type="text/Javascript" src="/t9/core/js/smartclient.js" ></script>
+<script type="text/javascript" src = "/t9/raw/cy/grid/grid.js">
+</script>
+<link rel="stylesheet" type="text/css" href="/t9/raw/cy/grid/grid.css"/>
+<title>数据列表翻页导航</title>
+</head>
+<script type="text/javascript">
+
+ function loads(){
+   
+	var hd =[
+	       	  [
+		       	{header:"hID",name:"id",width:"10%",hidden:false},
+		       	{header:"hAge",name:"age",width:"20%",hidden:false},
+		       	{header:"hanme",name:"name",width:"40%",hidden:false}
+		      ],
+		      {
+	    		header:"操作",
+	    		oprates:[
+		               new T9Oprate('增加',true,function(record,index){alert(record.getField('name').value+":"+index)}),
+                       new T9Oprate('oprate4',false,function(){alert("oprate4")}),
+                       new T9Oprate('删除',true,function(){alert("oprate2")})
+                        ]
+             }
+	];
+	var url = "/t9/raw/cy/act/T9GridAct/jsonTest.act?tabName=tabName";
+	var grid = new T9Grid(hd,url,null,4);
+	 grid.rendTo('grid');
+	 }
+</script >
+<body onload = "loads()">
+<div id = "grid" style = "width:400px;height:200px;border:1px solid #0000ff;"></div>
+</body>
+</html>

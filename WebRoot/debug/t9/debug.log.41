@@ -1,0 +1,1361 @@
+2012-12-06 : 15-14-58-553 Thread-45 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-14-58-565 Thread-46 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-14-58-565 Thread-46 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-14-58-567 Thread-45 t9 30 - d-登陆失败
+2012-12-06 : 15-15-18-554 Thread-48 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-15-18-564 Thread-49 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-15-18-565 Thread-49 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-15-18-568 Thread-48 t9 30 - d-登陆失败
+2012-12-06 : 15-15-38-562 Thread-51 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-15-38-566 Thread-52 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-15-38-567 Thread-52 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-15-58-564 Thread-54 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-15-58-564 Thread-54 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-16-09-065 Thread-51 t9 30 - d-登陆失败
+2012-12-06 : 15-16-18-563 Thread-56 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-16-18-563 Thread-56 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-16-28-583 Thread-57 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-16-28-591 Thread-57 t9 30 - d-登陆成功
+2012-12-06 : 15-16-28-632 Thread-57 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-16-28-632 Thread-57 t9 30 - d-开始读取信息
+2012-12-06 : 15-16-28-633 Thread-57 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-16-28-633 Thread-57 t9 30 - d-没有下载任务
+2012-12-06 : 15-16-28-633 Thread-57 t9 30 - d-保存下载任务
+2012-12-06 : 15-16-28-633 Thread-57 t9 30 - saveTasks-1
+2012-12-06 : 15-16-28-634 Thread-57 t9 30 - saveTasks-2
+2012-12-06 : 15-16-28-634 Thread-57 t9 30 - saveTasks-3
+2012-12-06 : 15-16-28-634 Thread-57 t9 30 - saveTasks-4:
+2012-12-06 : 15-16-28-635 Thread-57 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-16-38-578 Thread-63 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-16-38-578 Thread-63 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-16-48-564 Thread-64 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-16-48-574 Thread-64 t9 30 - d-登陆成功
+2012-12-06 : 15-16-48-577 Thread-64 t9 30 - d-发送请求<获取信息>:耗时:3
+2012-12-06 : 15-16-48-577 Thread-64 t9 30 - d-开始读取信息
+2012-12-06 : 15-16-48-578 Thread-64 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-16-48-578 Thread-64 t9 30 - d-没有下载任务
+2012-12-06 : 15-16-48-578 Thread-64 t9 30 - d-保存下载任务
+2012-12-06 : 15-16-48-579 Thread-64 t9 30 - saveTasks-1
+2012-12-06 : 15-16-48-579 Thread-64 t9 30 - saveTasks-2
+2012-12-06 : 15-16-48-579 Thread-64 t9 30 - saveTasks-3
+2012-12-06 : 15-16-48-580 Thread-64 t9 30 - saveTasks-4:
+2012-12-06 : 15-16-48-580 Thread-64 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-16-58-562 Thread-66 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-16-58-563 Thread-66 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-17-08-575 Thread-67 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-17-08-584 Thread-67 t9 30 - d-登陆成功
+2012-12-06 : 15-17-08-587 Thread-67 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-17-08-587 Thread-67 t9 30 - d-开始读取信息
+2012-12-06 : 15-17-08-587 Thread-67 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-17-08-588 Thread-67 t9 30 - d-没有下载任务
+2012-12-06 : 15-17-08-588 Thread-67 t9 30 - d-保存下载任务
+2012-12-06 : 15-17-08-588 Thread-67 t9 30 - saveTasks-1
+2012-12-06 : 15-17-08-588 Thread-67 t9 30 - saveTasks-2
+2012-12-06 : 15-17-08-589 Thread-67 t9 30 - saveTasks-3
+2012-12-06 : 15-17-08-589 Thread-67 t9 30 - saveTasks-4:
+2012-12-06 : 15-17-08-589 Thread-67 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-17-18-561 Thread-69 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-17-18-561 Thread-69 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-17-28-563 Thread-70 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-17-28-572 Thread-70 t9 30 - d-登陆成功
+2012-12-06 : 15-17-28-574 Thread-70 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-17-28-575 Thread-70 t9 30 - d-开始读取信息
+2012-12-06 : 15-17-28-575 Thread-70 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-17-28-575 Thread-70 t9 30 - d-没有下载任务
+2012-12-06 : 15-17-28-576 Thread-70 t9 30 - d-保存下载任务
+2012-12-06 : 15-17-28-576 Thread-70 t9 30 - saveTasks-1
+2012-12-06 : 15-17-28-576 Thread-70 t9 30 - saveTasks-2
+2012-12-06 : 15-17-28-577 Thread-70 t9 30 - saveTasks-3
+2012-12-06 : 15-17-28-577 Thread-70 t9 30 - saveTasks-4:
+2012-12-06 : 15-17-28-586 Thread-70 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-17-38-565 Thread-73 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-17-38-565 Thread-73 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-17-48-562 Thread-74 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-17-48-570 Thread-74 t9 30 - d-登陆成功
+2012-12-06 : 15-17-48-572 Thread-74 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-17-48-573 Thread-74 t9 30 - d-开始读取信息
+2012-12-06 : 15-17-48-573 Thread-74 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-17-48-573 Thread-74 t9 30 - d-没有下载任务
+2012-12-06 : 15-17-48-573 Thread-74 t9 30 - d-保存下载任务
+2012-12-06 : 15-17-48-574 Thread-74 t9 30 - saveTasks-1
+2012-12-06 : 15-17-48-574 Thread-74 t9 30 - saveTasks-2
+2012-12-06 : 15-17-48-574 Thread-74 t9 30 - saveTasks-3
+2012-12-06 : 15-17-48-574 Thread-74 t9 30 - saveTasks-4:
+2012-12-06 : 15-17-48-575 Thread-74 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-17-58-587 Thread-78 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-17-58-587 Thread-78 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-18-08-582 Thread-80 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-18-08-587 Thread-80 t9 30 - d-登陆成功
+2012-12-06 : 15-18-08-589 Thread-80 t9 30 - d-发送请求<获取信息>:耗时:1
+2012-12-06 : 15-18-08-589 Thread-80 t9 30 - d-开始读取信息
+2012-12-06 : 15-18-08-589 Thread-80 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-18-08-589 Thread-80 t9 30 - d-没有下载任务
+2012-12-06 : 15-18-08-590 Thread-80 t9 30 - d-保存下载任务
+2012-12-06 : 15-18-08-590 Thread-80 t9 30 - saveTasks-1
+2012-12-06 : 15-18-08-590 Thread-80 t9 30 - saveTasks-2
+2012-12-06 : 15-18-08-590 Thread-80 t9 30 - saveTasks-3
+2012-12-06 : 15-18-08-590 Thread-80 t9 30 - saveTasks-4:
+2012-12-06 : 15-18-08-591 Thread-80 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-18-18-576 Thread-82 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-18-18-577 Thread-82 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-18-28-565 Thread-83 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-18-28-572 Thread-83 t9 30 - d-登陆成功
+2012-12-06 : 15-18-28-575 Thread-83 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-18-28-575 Thread-83 t9 30 - d-开始读取信息
+2012-12-06 : 15-18-28-576 Thread-83 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-18-28-576 Thread-83 t9 30 - d-没有下载任务
+2012-12-06 : 15-18-28-576 Thread-83 t9 30 - d-保存下载任务
+2012-12-06 : 15-18-28-576 Thread-83 t9 30 - saveTasks-1
+2012-12-06 : 15-18-28-576 Thread-83 t9 30 - saveTasks-2
+2012-12-06 : 15-18-28-577 Thread-83 t9 30 - saveTasks-3
+2012-12-06 : 15-18-28-577 Thread-83 t9 30 - saveTasks-4:
+2012-12-06 : 15-18-28-577 Thread-83 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-18-38-569 Thread-85 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-18-38-569 Thread-85 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-18-48-584 Thread-86 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-18-48-590 Thread-86 t9 30 - d-登陆成功
+2012-12-06 : 15-18-48-591 Thread-86 t9 30 - d-发送请求<获取信息>:耗时:1
+2012-12-06 : 15-18-48-591 Thread-86 t9 30 - d-开始读取信息
+2012-12-06 : 15-18-48-592 Thread-86 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-18-48-592 Thread-86 t9 30 - d-没有下载任务
+2012-12-06 : 15-18-48-592 Thread-86 t9 30 - d-保存下载任务
+2012-12-06 : 15-18-48-592 Thread-86 t9 30 - saveTasks-1
+2012-12-06 : 15-18-48-592 Thread-86 t9 30 - saveTasks-2
+2012-12-06 : 15-18-48-593 Thread-86 t9 30 - saveTasks-3
+2012-12-06 : 15-18-48-593 Thread-86 t9 30 - saveTasks-4:
+2012-12-06 : 15-18-48-593 Thread-86 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-18-58-589 Thread-88 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-18-58-589 Thread-88 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-19-08-583 Thread-89 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-19-08-589 Thread-89 t9 30 - d-登陆成功
+2012-12-06 : 15-19-08-591 Thread-89 t9 30 - d-发送请求<获取信息>:耗时:1
+2012-12-06 : 15-19-08-591 Thread-89 t9 30 - d-开始读取信息
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - d-没有下载任务
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - d-保存下载任务
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - saveTasks-1
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - saveTasks-2
+2012-12-06 : 15-19-08-592 Thread-89 t9 30 - saveTasks-3
+2012-12-06 : 15-19-08-593 Thread-89 t9 30 - saveTasks-4:
+2012-12-06 : 15-19-08-593 Thread-89 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-19-18-588 Thread-91 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-19-18-589 Thread-91 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-19-28-585 Thread-92 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-19-28-592 Thread-92 t9 30 - d-登陆成功
+2012-12-06 : 15-19-28-593 Thread-92 t9 30 - d-发送请求<获取信息>:耗时:1
+2012-12-06 : 15-19-28-594 Thread-92 t9 30 - d-开始读取信息
+2012-12-06 : 15-19-28-594 Thread-92 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-19-28-594 Thread-92 t9 30 - d-没有下载任务
+2012-12-06 : 15-19-28-594 Thread-92 t9 30 - d-保存下载任务
+2012-12-06 : 15-19-28-595 Thread-92 t9 30 - saveTasks-1
+2012-12-06 : 15-19-28-595 Thread-92 t9 30 - saveTasks-2
+2012-12-06 : 15-19-28-595 Thread-92 t9 30 - saveTasks-3
+2012-12-06 : 15-19-28-595 Thread-92 t9 30 - saveTasks-4:
+2012-12-06 : 15-19-28-596 Thread-92 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-19-38-588 Thread-94 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-19-38-589 Thread-94 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-19-48-587 Thread-95 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-19-48-594 Thread-95 t9 30 - d-登陆成功
+2012-12-06 : 15-19-48-596 Thread-95 t9 30 - d-发送请求<获取信息>:耗时:1
+2012-12-06 : 15-19-48-597 Thread-95 t9 30 - d-开始读取信息
+2012-12-06 : 15-19-48-597 Thread-95 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-19-48-597 Thread-95 t9 30 - d-没有下载任务
+2012-12-06 : 15-19-48-597 Thread-95 t9 30 - d-保存下载任务
+2012-12-06 : 15-19-48-597 Thread-95 t9 30 - saveTasks-1
+2012-12-06 : 15-19-48-598 Thread-95 t9 30 - saveTasks-2
+2012-12-06 : 15-19-48-598 Thread-95 t9 30 - saveTasks-3
+2012-12-06 : 15-19-48-598 Thread-95 t9 30 - saveTasks-4:
+2012-12-06 : 15-19-48-598 Thread-95 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-19-58-574 Thread-97 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-19-58-575 Thread-97 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-20-08-572 Thread-98 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-20-08-578 Thread-98 t9 30 - d-登陆成功
+2012-12-06 : 15-20-08-580 Thread-98 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-20-08-581 Thread-98 t9 30 - d-开始读取信息
+2012-12-06 : 15-20-08-581 Thread-98 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-20-08-581 Thread-98 t9 30 - d-没有下载任务
+2012-12-06 : 15-20-08-582 Thread-98 t9 30 - d-保存下载任务
+2012-12-06 : 15-20-08-582 Thread-98 t9 30 - saveTasks-1
+2012-12-06 : 15-20-08-582 Thread-98 t9 30 - saveTasks-2
+2012-12-06 : 15-20-08-582 Thread-98 t9 30 - saveTasks-3
+2012-12-06 : 15-20-08-583 Thread-98 t9 30 - saveTasks-4:
+2012-12-06 : 15-20-08-583 Thread-98 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-20-18-581 Thread-100 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-20-18-583 Thread-100 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-20-28-590 Thread-101 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-20-28-598 Thread-101 t9 30 - d-登陆成功
+2012-12-06 : 15-20-28-601 Thread-101 t9 30 - d-发送请求<获取信息>:耗时:3
+2012-12-06 : 15-20-28-602 Thread-101 t9 30 - d-开始读取信息
+2012-12-06 : 15-20-28-602 Thread-101 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-20-28-602 Thread-101 t9 30 - d-没有下载任务
+2012-12-06 : 15-20-28-602 Thread-101 t9 30 - d-保存下载任务
+2012-12-06 : 15-20-28-602 Thread-101 t9 30 - saveTasks-1
+2012-12-06 : 15-20-28-603 Thread-101 t9 30 - saveTasks-2
+2012-12-06 : 15-20-28-603 Thread-101 t9 30 - saveTasks-3
+2012-12-06 : 15-20-28-603 Thread-101 t9 30 - saveTasks-4:
+2012-12-06 : 15-20-28-603 Thread-101 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-20-38-577 Thread-103 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-20-38-578 Thread-103 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-20-48-575 Thread-104 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-20-48-583 Thread-104 t9 30 - d-登陆成功
+2012-12-06 : 15-20-48-594 Thread-104 t9 30 - d-发送请求<获取信息>:耗时:11
+2012-12-06 : 15-20-48-594 Thread-104 t9 30 - d-开始读取信息
+2012-12-06 : 15-20-48-595 Thread-104 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-20-48-595 Thread-104 t9 30 - d-没有下载任务
+2012-12-06 : 15-20-48-595 Thread-104 t9 30 - d-保存下载任务
+2012-12-06 : 15-20-48-596 Thread-104 t9 30 - saveTasks-1
+2012-12-06 : 15-20-48-596 Thread-104 t9 30 - saveTasks-2
+2012-12-06 : 15-20-48-596 Thread-104 t9 30 - saveTasks-3
+2012-12-06 : 15-20-48-596 Thread-104 t9 30 - saveTasks-4:
+2012-12-06 : 15-20-48-597 Thread-104 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-20-58-580 Thread-107 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-20-58-580 Thread-107 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-21-08-589 Thread-108 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-21-08-596 Thread-108 t9 30 - d-登陆成功
+2012-12-06 : 15-21-08-598 Thread-108 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-21-08-598 Thread-108 t9 30 - d-开始读取信息
+2012-12-06 : 15-21-08-598 Thread-108 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-21-08-598 Thread-108 t9 30 - d-没有下载任务
+2012-12-06 : 15-21-08-599 Thread-108 t9 30 - d-保存下载任务
+2012-12-06 : 15-21-08-599 Thread-108 t9 30 - saveTasks-1
+2012-12-06 : 15-21-08-599 Thread-108 t9 30 - saveTasks-2
+2012-12-06 : 15-21-08-599 Thread-108 t9 30 - saveTasks-3
+2012-12-06 : 15-21-08-599 Thread-108 t9 30 - saveTasks-4:
+2012-12-06 : 15-21-08-600 Thread-108 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-21-18-587 Thread-110 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-21-18-587 Thread-110 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-21-28-595 Thread-111 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-21-28-614 Thread-111 t9 30 - d-登陆成功
+2012-12-06 : 15-21-28-617 Thread-111 t9 30 - d-发送请求<获取信息>:耗时:3
+2012-12-06 : 15-21-28-617 Thread-111 t9 30 - d-开始读取信息
+2012-12-06 : 15-21-28-618 Thread-111 t9 30 - d-读取：，总耗时：1
+2012-12-06 : 15-21-28-618 Thread-111 t9 30 - d-没有下载任务
+2012-12-06 : 15-21-28-618 Thread-111 t9 30 - d-保存下载任务
+2012-12-06 : 15-21-28-618 Thread-111 t9 30 - saveTasks-1
+2012-12-06 : 15-21-28-619 Thread-111 t9 30 - saveTasks-2
+2012-12-06 : 15-21-28-619 Thread-111 t9 30 - saveTasks-3
+2012-12-06 : 15-21-28-619 Thread-111 t9 30 - saveTasks-4:
+2012-12-06 : 15-21-28-619 Thread-111 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-22-24-137 Thread-12 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-22-24-145 Thread-12 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-22-25-097 Thread-10 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-22-25-110 Thread-10 t9 30 - d-登陆成功
+2012-12-06 : 15-22-25-116 Thread-10 t9 30 - d-发送请求<获取信息>:耗时:2
+2012-12-06 : 15-22-25-117 Thread-10 t9 30 - d-开始读取信息
+2012-12-06 : 15-22-25-117 Thread-10 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-22-25-118 Thread-10 t9 30 - d-没有下载任务
+2012-12-06 : 15-22-25-118 Thread-10 t9 30 - d-保存下载任务
+2012-12-06 : 15-22-25-118 Thread-10 t9 30 - saveTasks-1
+2012-12-06 : 15-22-25-137 Thread-10 t9 30 - saveTasks-2
+2012-12-06 : 15-22-25-138 Thread-10 t9 30 - saveTasks-3
+2012-12-06 : 15-22-25-138 Thread-10 t9 30 - saveTasks-4:
+2012-12-06 : 15-22-25-139 Thread-10 t9 30 - d-保存下载任务成功
+2012-12-06 : 15-22-44-046 Thread-16 t9 30 - d-未登陆,开始登陆
+2012-12-06 : 15-22-44-047 Thread-18 t9 30 - ua-自动上传线程报错：Table 't9.esb_upload_task' doesn't exist
+2012-12-06 : 15-22-44-047 Thread-18 t9.core.esb.frontend.T9EsbFrontendAuto 75 - Table 't9.esb_upload_task' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 't9.esb_upload_task' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1936)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2060)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2536)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-06 : 15-22-44-054 Thread-16 t9 30 - d-登陆成功
+2012-12-06 : 15-22-44-057 Thread-16 t9 30 - d-发送请求<获取信息>:耗时:3
+2012-12-06 : 15-22-44-057 Thread-16 t9 30 - d-开始读取信息
+2012-12-06 : 15-22-44-057 Thread-16 t9 30 - d-读取：，总耗时：0
+2012-12-06 : 15-22-44-057 Thread-16 t9 30 - d-没有下载任务
+2012-12-06 : 15-22-44-058 Thread-16 t9 30 - d-保存下载任务
+2012-12-06 : 15-22-44-058 Thread-16 t9 30 - saveTasks-1
+2012-12-06 : 15-22-44-058 Thread-16 t9 30 - saveTasks-2
+2012-12-06 : 15-22-44-058 Thread-16 t9 30 - saveTasks-3
+2012-12-06 : 15-22-44-059 Thread-16 t9 30 - saveTasks-4:
+2012-12-06 : 15-22-44-059 Thread-16 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-22-11-458 Thread-8 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-22-11-536 Thread-8 t9 30 - d-登陆成功
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - d-开始读取信息
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - d-没有下载任务
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - d-保存下载任务
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - saveTasks-1
+2012-12-24 : 10-22-11-567 Thread-8 t9 30 - saveTasks-2
+2012-12-24 : 10-22-11-583 Thread-8 t9 30 - saveTasks-3
+2012-12-24 : 10-22-11-598 Thread-8 t9 30 - saveTasks-4:
+2012-12-24 : 10-22-11-598 Thread-8 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-22-11-676 Thread-8 t9 30 - d-无下载任务
+2012-12-24 : 10-22-29-881 Thread-13 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-22-29-891 Thread-13 t9 30 - d-登陆成功
+2012-12-24 : 10-22-29-891 Thread-13 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-22-29-891 Thread-13 t9 30 - d-开始读取信息
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - d-读取：，总耗时：10
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - d-没有下载任务
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - d-保存下载任务
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - saveTasks-1
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - saveTasks-2
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - saveTasks-3
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - saveTasks-4:
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-22-29-901 Thread-13 t9 30 - d-无下载任务
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-登陆成功
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-开始读取信息
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-没有下载任务
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - d-保存下载任务
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - saveTasks-1
+2012-12-24 : 10-22-49-893 Thread-16 t9 30 - saveTasks-2
+2012-12-24 : 10-22-49-909 Thread-16 t9 30 - saveTasks-3
+2012-12-24 : 10-22-49-909 Thread-16 t9 30 - saveTasks-4:
+2012-12-24 : 10-22-49-909 Thread-16 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-22-49-909 Thread-16 t9 30 - d-无下载任务
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-登陆成功
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-开始读取信息
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-23-09-915 Thread-21 t9 30 - d-没有下载任务
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - d-保存下载任务
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - saveTasks-1
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - saveTasks-2
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - saveTasks-3
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - saveTasks-4:
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-23-09-931 Thread-21 t9 30 - d-无下载任务
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-登陆成功
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-开始读取信息
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-没有下载任务
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-保存下载任务
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - saveTasks-1
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - saveTasks-2
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - saveTasks-3
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - saveTasks-4:
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-23-29-930 Thread-26 t9 30 - d-无下载任务
+2012-12-24 : 10-23-30-741 http-88-1 t9 30 - u-任务36bb4c91-7519-4b23-9986-536ba5fd734d不存在，添加任务
+2012-12-24 : 10-23-30-804 pool-1-thread-1 t9 30 - u-任务36bb4c91-7519-4b23-9986-536ba5fd734d初始化任务
+2012-12-24 : 10-23-30-804 pool-1-thread-1 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-23-30-851 pool-1-thread-1 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-23-30-866 pool-1-thread-1 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：15
+2012-12-24 : 10-23-30-866 pool-1-thread-1 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：47
+2012-12-24 : 10-23-30-866 pool-1-thread-1 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-23-30-866 pool-1-thread-1 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-23-30-882 pool-1-thread-1 t9 30 - u-任务36bb4c91-7519-4b23-9986-536ba5fd734d初始化任务失败
+2012-12-24 : 10-23-37-069 http-88-4 t9 30 - u-任务7ce21c34-61b9-4c4f-b984-a2acf5696e09不存在，添加任务
+2012-12-24 : 10-23-37-079 pool-1-thread-1 t9 30 - u-任务7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化任务
+2012-12-24 : 10-23-37-079 pool-1-thread-1 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-23-37-079 pool-1-thread-1 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-23-37-079 pool-1-thread-1 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-23-37-089 pool-1-thread-1 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：10
+2012-12-24 : 10-23-37-089 pool-1-thread-1 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-23-37-089 pool-1-thread-1 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-23-37-089 pool-1-thread-1 t9 30 - u-任务7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化任务失败
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-登陆成功
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-开始读取信息
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-23-39-931 Thread-27 t9 30 - d-没有下载任务
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - d-保存下载任务
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - saveTasks-1
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - saveTasks-2
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - saveTasks-3
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - saveTasks-4:
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-23-39-947 Thread-27 t9 30 - d-无下载任务
+2012-12-24 : 10-23-39-947 Thread-29 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：0
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-23-39-963 Thread-29 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-23-39-978 Thread-29 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：15
+2012-12-24 : 10-23-39-978 Thread-29 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：15
+2012-12-24 : 10-23-39-978 Thread-29 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-23-39-978 Thread-29 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-23-39-978 Thread-29 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-23-59-952 Thread-31 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-23-59-962 Thread-32 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-登陆成功
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-开始读取信息
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-没有下载任务
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - d-保存下载任务
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - saveTasks-1
+2012-12-24 : 10-23-59-962 Thread-32 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - saveTasks-2
+2012-12-24 : 10-23-59-962 Thread-31 t9 30 - saveTasks-3
+2012-12-24 : 10-23-59-972 Thread-31 t9 30 - saveTasks-4:
+2012-12-24 : 10-23-59-972 Thread-31 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：10
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：10
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-23-59-972 Thread-31 t9 30 - d-无下载任务
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-23-59-972 Thread-32 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：10
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-23-59-982 Thread-32 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-24-19-957 Thread-34 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-24-19-957 Thread-34 t9 30 - d-登陆成功
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-开始读取信息
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-没有下载任务
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-保存下载任务
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - saveTasks-1
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - saveTasks-2
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - saveTasks-3
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - saveTasks-4:
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-24-19-973 Thread-34 t9 30 - d-无下载任务
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：0
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-24-19-973 Thread-36 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：0
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-24-19-988 Thread-36 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-24-39-979 Thread-37 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-登陆成功
+2012-12-24 : 10-24-39-995 Thread-39 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-24-39-995 Thread-39 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-开始读取信息
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-没有下载任务
+2012-12-24 : 10-24-39-995 Thread-37 t9 30 - d-保存下载任务
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - saveTasks-1
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：15
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - saveTasks-2
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：15
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - saveTasks-3
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - saveTasks-4:
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-24-40-010 Thread-37 t9 30 - d-无下载任务
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-24-40-010 Thread-39 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：0
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-24-40-026 Thread-39 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-24-59-991 Thread-40 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-24-59-991 Thread-42 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-24-59-991 Thread-40 t9 30 - d-登陆成功
+2012-12-24 : 10-24-59-991 Thread-40 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-24-59-991 Thread-40 t9 30 - d-开始读取信息
+2012-12-24 : 10-24-59-991 Thread-40 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - d-没有下载任务
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - d-保存下载任务
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - saveTasks-1
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - saveTasks-2
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - saveTasks-3
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - saveTasks-4:
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-25-00-007 Thread-40 t9 30 - d-无下载任务
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：0
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-25-00-007 Thread-42 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：0
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-25-00-022 Thread-42 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-25-20-001 Thread-44 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-25-20-001 Thread-46 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-25-20-001 Thread-44 t9 30 - d-登陆成功
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - d-发送请求<获取信息>:耗时:10
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - d-开始读取信息
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - d-没有下载任务
+2012-12-24 : 10-25-20-011 Thread-46 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - d-保存下载任务
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - saveTasks-1
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - saveTasks-2
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - saveTasks-3
+2012-12-24 : 10-25-20-011 Thread-44 t9 30 - saveTasks-4:
+2012-12-24 : 10-25-20-021 Thread-44 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：10
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：10
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-25-20-021 Thread-44 t9 30 - d-无下载任务
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-25-20-021 Thread-46 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-25-20-031 Thread-46 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-25-20-031 Thread-46 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：10
+2012-12-24 : 10-25-20-031 Thread-46 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-25-20-031 Thread-46 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-25-20-031 Thread-46 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-25-40-007 Thread-50 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-登陆成功
+2012-12-24 : 10-25-40-007 Thread-50 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-开始读取信息
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-没有下载任务
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - d-保存下载任务
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - saveTasks-1
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - saveTasks-2
+2012-12-24 : 10-25-40-007 Thread-48 t9 30 - saveTasks-3
+2012-12-24 : 10-25-40-022 Thread-48 t9 30 - saveTasks-4:
+2012-12-24 : 10-25-40-022 Thread-48 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d执行次数：1，发送初始化请求，报错：Software caused connection abort: recv failed
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-25-40-022 Thread-48 t9 30 - d-无下载任务
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：15
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-25-40-022 Thread-50 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-25-40-038 Thread-50 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-25-40-039 Thread-50 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-25-40-039 Thread-50 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：17
+2012-12-24 : 10-25-40-039 Thread-50 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-25-40-039 Thread-50 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-25-40-039 Thread-50 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-26-00-032 Thread-54 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-登陆成功
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-开始读取信息
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-没有下载任务
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-保存下载任务
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - saveTasks-1
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - saveTasks-2
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - saveTasks-3
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - saveTasks-4:
+2012-12-24 : 10-26-00-032 Thread-52 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-26-00-032 Thread-54 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-26-00-048 Thread-52 t9 30 - d-无下载任务
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：16
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：16
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-26-00-048 Thread-54 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-26-00-063 Thread-54 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：15
+2012-12-24 : 10-26-00-063 Thread-54 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：15
+2012-12-24 : 10-26-00-063 Thread-54 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-26-00-063 Thread-54 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-26-00-063 Thread-54 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-26-20-063 Thread-56 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-26-20-078 Thread-56 t9 30 - d-登陆成功
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-开始读取信息
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-读取：，总耗时：0
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-没有下载任务
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-保存下载任务
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - saveTasks-1
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - saveTasks-2
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - saveTasks-3
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - saveTasks-4:
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-26-20-094 Thread-56 t9 30 - d-无下载任务
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：0
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-26-20-094 Thread-58 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：0
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：0
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败
+2012-12-24 : 10-26-20-109 Thread-58 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化失败，
+2012-12-24 : 10-26-40-093 Thread-59 t9 30 - d-未登陆,开始登陆
+2012-12-24 : 10-26-40-093 Thread-61 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-26-40-109 Thread-61 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-26-40-124 Thread-61 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：15
+2012-12-24 : 10-26-40-124 Thread-61 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：15
+2012-12-24 : 10-26-40-124 Thread-61 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-26-40-124 Thread-61 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败
+2012-12-24 : 10-26-40-140 Thread-61 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化失败，
+2012-12-24 : 10-26-40-140 Thread-61 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化
+2012-12-24 : 10-26-40-140 Thread-61 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送初始化请求
+2012-12-24 : 10-26-40-140 Thread-59 t9 30 - d-登陆成功
+2012-12-24 : 10-26-40-202 Thread-59 t9 30 - d-发送请求<获取信息>:耗时:62
+2012-12-24 : 10-26-40-202 Thread-59 t9 30 - d-开始读取信息
+2012-12-24 : 10-26-40-202 Thread-59 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-26-40-202 Thread-59 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-26-40-218 Thread-59 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-26-40-218 Thread-59 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-24 : 10-26-40-218 Thread-59 t9 30 - d-读取的信息转json
+2012-12-24 : 10-26-40-233 Thread-61 t9 30 - u-initializeQuest-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送初始化请求，请求耗时：93
+2012-12-24 : 10-26-40-233 Thread-61 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化，耗时：93
+2012-12-24 : 10-26-40-233 Thread-61 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传初始化请求返回正常
+2012-12-24 : 10-26-40-233 Thread-61 t9 30 - u-initialize-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化成功
+2012-12-24 : 10-26-40-233 Thread-61 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成初始化，
+2012-12-24 : 10-26-40-249 Thread-61 t9 30 - u-transfer-任务7ce21c34-61b9-4c4f-b984-a2acf5696e09传输初始化(去掉已完成的分片)，
+2012-12-24 : 10-26-40-249 Thread-61 t9 30 - u-transfer-任务7ce21c34-61b9-4c4f-b984-a2acf5696e09完成传输初始化开始传输
+2012-12-24 : 10-26-40-374 Thread-61 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成上传传输，
+2012-12-24 : 10-26-40-374 Thread-61 t9 30 - u-complete-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09发送上传完成请求
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - d-处理信息头
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - d-保存下载任务
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - saveTasks-1
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - saveTasks-2
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - saveTasks-3
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - saveTasks-4:
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-26-40-389 Thread-59 t9 30 - d-无下载任务
+2012-12-24 : 10-26-40-389 Thread-61 t9 30 - u-complete-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成发送上传完成请求，耗时：15
+2012-12-24 : 10-26-40-436 Thread-61 t9 30 - u-complete-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成上传，处理相应的业务
+2012-12-24 : 10-26-40-436 Thread-61 t9 30 - complete-8:0
+2012-12-24 : 10-26-40-436 Thread-61 t9 30 - u-complete-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09上传完毕，更新客户端状态
+2012-12-24 : 10-26-40-436 Thread-61 t9 30 - ua-任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09完成上传，
+2012-12-24 : 10-27-00-094 Thread-63 t9 30 - d-用户已在线
+2012-12-24 : 10-27-00-312 Thread-65 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-发送请求<获取信息>:耗时:218
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-开始读取信息
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：{message:"5rWL6K+V5ZOmZGZhIiDpoonlj5Hovr7lnLAgIiDp，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：ookg,",optGuid:"test,",fromId:"client,",fileType:"，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：",fileLength:"1401,",fileName:"15.txt,",tasks:"7ce，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：21c34-61b9-4c4f-b984-a2acf5696e09,",contentMd5:"c6，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：9b000d5e3c9273bcc2b439ab7c80df,",message2:"e6b58be，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：8af95e593a66466612220e9a289e58f91e8bebee59cb020222，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：0e9a28920,"}，耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取：{message:"5rWL6K+V5ZOmZGZhIiDpoonlj5Hovr7lnLAgIiDpookg,",optGuid:"test,",fromId:"client,",fileType:"",fileLength:"1401,",fileName:"15.txt,",tasks:"7ce21c34-61b9-4c4f-b984-a2acf5696e09,",contentMd5:"c69b000d5e3c9273bcc2b439ab7c80df,",message2:"e6b58be8af95e593a66466612220e9a289e58f91e8bebee59cb0202220e9a28920,"}，总耗时：0
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取的信息转json
+2012-12-24 : 10-27-00-312 Thread-65 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送初始化请求
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-处理信息头
+2012-12-24 : 10-27-00-312 Thread-63 t9 30 - d-保存下载任务
+2012-12-24 : 10-27-00-328 Thread-63 t9 30 - saveTasks-1
+2012-12-24 : 10-27-00-328 Thread-63 t9 30 - saveTasks-2
+2012-12-24 : 10-27-00-328 Thread-63 t9 30 - saveTasks-3
+2012-12-24 : 10-27-00-328 Thread-63 t9 30 - saveTasks-4:7ce21c34-61b9-4c4f-b984-a2acf5696e09
+2012-12-24 : 10-27-00-328 Thread-63 t9 30 - saveTasks-5:新任务:7ce21c34-61b9-4c4f-b984-a2acf5696e09
+2012-12-24 : 10-27-00-343 Thread-65 t9 30 - u-initializeQuest-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送初始化请求，请求耗时：31
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化，耗时：47
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传初始化请求返回正常
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - u-initialize-任务:36bb4c91-7519-4b23-9986-536ba5fd734d初始化成功
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成初始化，
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - u-transfer-任务36bb4c91-7519-4b23-9986-536ba5fd734d传输初始化(去掉已完成的分片)，
+2012-12-24 : 10-27-00-359 Thread-65 t9 30 - u-transfer-任务36bb4c91-7519-4b23-9986-536ba5fd734d完成传输初始化开始传输
+2012-12-24 : 10-27-00-375 Thread-63 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-27-00-375 Thread-65 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成上传传输，
+2012-12-24 : 10-27-00-375 Thread-65 t9 30 - u-complete-任务:36bb4c91-7519-4b23-9986-536ba5fd734d发送上传完成请求
+2012-12-24 : 10-27-00-375 Thread-65 t9 30 - u-complete-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成发送上传完成请求，耗时：0
+2012-12-24 : 10-27-00-375 Thread-65 t9 30 - u-complete-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成上传，处理相应的业务
+2012-12-24 : 10-27-00-390 Thread-65 t9 30 - complete-8:0
+2012-12-24 : 10-27-00-390 Thread-65 t9 30 - u-complete-任务:36bb4c91-7519-4b23-9986-536ba5fd734d上传完毕，更新客户端状态
+2012-12-24 : 10-27-00-390 Thread-65 t9 30 - ua-任务:36bb4c91-7519-4b23-9986-536ba5fd734d完成上传，
+2012-12-24 : 10-27-00-406 Thread-63 t9 30 - d-开始下载任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09,标题：测试哦dfa" 颉发达地 " 颉 
+2012-12-24 : 10-27-00-454 Thread-63 t9 30 - d-开始下载任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09
+2012-12-24 : 10-27-00-454 Thread-63 t9 30 - d-initialize-发送初始化请求
+2012-12-24 : 10-27-00-469 Thread-63 t9 30 - d-initialize-发送初始化请求成功，耗时：15
+2012-12-24 : 10-27-00-469 Thread-63 t9 30 - d-initialize-读取到下载文件的message:测试哦dfa" 颉发达地 " 颉
+2012-12-24 : 10-27-00-469 Thread-63 t9 30 - d-initialize-下载文件的保存路径：e:\cache\7ce21c34-61b9-4c4f-b984-a2acf5696e09
+2012-12-24 : 10-27-00-469 Thread-63 t9 30 - d-initialize-务理取得的下载任务信息
+2012-12-24 : 10-27-00-485 Thread-63 t9 30 - d-initialize-下载任务信息已存在
+2012-12-24 : 10-27-00-485 Thread-63 t9 30 - d-initTaskInfo-根据文件初始化下载任务信息
+2012-12-24 : 10-27-00-485 Thread-63 t9 30 - d-initTaskInfo-新建任务信息
+2012-12-24 : 10-27-00-500 Thread-63 t9 30 - d-任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09初始化完成 ，返回：true
+2012-12-24 : 10-27-00-532 Thread-63 t9 30 - d-transfer-任务开始
+2012-12-24 : 10-27-00-547 Thread-63 t9 30 - d-任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09传输完成 ，返回：true
+2012-12-24 : 10-27-00-547 Thread-63 t9 30 - d-complete-任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09通过md5校验:md5:c69b000d5e3c9273bcc2b439ab7c80df
+2012-12-24 : 10-27-00-547 Thread-63 t9 30 - d-complete-发送完成命令
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-complete-发送完成命令:耗时:16
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-complete-调用完成接口
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-complete-文件存在
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-complete-文件存在
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-complete-完成写入
+2012-12-24 : 10-27-00-563 Thread-63 t9 30 - d-任务：7ce21c34-61b9-4c4f-b984-a2acf5696e09下载完成
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-用户已在线
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-开始读取信息
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：{message:"5rWL6K+V5ZOmZGZhIiDpoonlj5Hovr7lnLAgIiDp，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：ookg,",optGuid:"test,",fromId:"client,",fileType:"，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：",fileLength:"888,",fileName:"esb%E6%9B%B4%E6%96%B，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：0.txt,",tasks:"36bb4c91-7519-4b23-9986-536ba5fd734，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：d,",contentMd5:"d6bc37bd4b62ec7be95d8facf0ee3618,"，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：,message2:"e6b58be8af95e593a66466612220e9a289e58f9，耗时：0
+2012-12-24 : 10-27-20-107 Thread-69 t9 30 - d-读取：1e8bebee59cb0202220e9a28920,"}，耗时：0
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-读取：{message:"5rWL6K+V5ZOmZGZhIiDpoonlj5Hovr7lnLAgIiDpookg,",optGuid:"test,",fromId:"client,",fileType:"",fileLength:"888,",fileName:"esb%E6%9B%B4%E6%96%B0.txt,",tasks:"36bb4c91-7519-4b23-9986-536ba5fd734d,",contentMd5:"d6bc37bd4b62ec7be95d8facf0ee3618,",message2:"e6b58be8af95e593a66466612220e9a289e58f91e8bebee59cb0202220e9a28920,"}，总耗时：16
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-读取的信息转json
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-处理信息头
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-获取信息头:{guid:"7ce21c34-61b9-4c4f-b984-a2acf5696e09",to:"client",code:"2",msg:"The file sent successfully!"}
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-处理发送接收命令
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-保存下载任务
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - saveTasks-1
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - saveTasks-2
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - saveTasks-3
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - saveTasks-4:36bb4c91-7519-4b23-9986-536ba5fd734d
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - saveTasks-5:新任务:36bb4c91-7519-4b23-9986-536ba5fd734d
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-开始下载任务：36bb4c91-7519-4b23-9986-536ba5fd734d,标题：测试哦dfa" 颉发达地 " 颉 
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-开始下载任务：36bb4c91-7519-4b23-9986-536ba5fd734d
+2012-12-24 : 10-27-20-123 Thread-69 t9 30 - d-initialize-发送初始化请求
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initialize-发送初始化请求成功，耗时：15
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initialize-读取到下载文件的message:测试哦dfa" 颉发达地 " 颉
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initialize-下载文件的保存路径：e:\cache\36bb4c91-7519-4b23-9986-536ba5fd734d
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initialize-务理取得的下载任务信息
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initialize-下载任务信息已存在
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initTaskInfo-根据文件初始化下载任务信息
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-initTaskInfo-新建任务信息
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-任务：36bb4c91-7519-4b23-9986-536ba5fd734d初始化完成 ，返回：true
+2012-12-24 : 10-27-20-138 Thread-69 t9 30 - d-transfer-任务开始
+2012-12-24 : 10-27-20-155 Thread-69 t9 30 - d-任务：36bb4c91-7519-4b23-9986-536ba5fd734d传输完成 ，返回：true
+2012-12-24 : 10-27-20-155 Thread-69 t9 30 - d-complete-任务：36bb4c91-7519-4b23-9986-536ba5fd734d通过md5校验:md5:d6bc37bd4b62ec7be95d8facf0ee3618
+2012-12-24 : 10-27-20-155 Thread-69 t9 30 - d-complete-发送完成命令
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-complete-发送完成命令:耗时:16
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-complete-调用完成接口
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-complete-文件存在
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-complete-文件存在
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-complete-完成写入
+2012-12-24 : 10-27-20-171 Thread-69 t9 30 - d-任务：36bb4c91-7519-4b23-9986-536ba5fd734d下载完成
+2012-12-24 : 10-27-40-125 Thread-74 t9 30 - d-用户已在线
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-开始读取信息
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取的信息转json
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-处理信息头
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-获取信息头:{guid:"36bb4c91-7519-4b23-9986-536ba5fd734d",to:"client",code:"2",msg:"The file sent successfully!"}
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-处理发送接收命令
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-保存下载任务
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - saveTasks-1
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - saveTasks-2
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - saveTasks-3
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - saveTasks-4:
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-27-40-141 Thread-74 t9 30 - d-无下载任务
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-用户已在线
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-开始读取信息
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-28-00-141 Thread-77 t9 30 - d-读取的信息转json
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - d-处理信息头
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - d-保存下载任务
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - saveTasks-1
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - saveTasks-2
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - saveTasks-3
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - saveTasks-4:
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-28-00-157 Thread-77 t9 30 - d-无下载任务
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-用户已在线
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-开始读取信息
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-28-20-171 Thread-82 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-读取的信息转json
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-处理信息头
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-保存下载任务
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - saveTasks-1
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - saveTasks-2
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - saveTasks-3
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - saveTasks-4:
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-28-20-187 Thread-82 t9 30 - d-无下载任务
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-用户已在线
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-开始读取信息
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取的信息转json
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-处理信息头
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - d-保存下载任务
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - saveTasks-1
+2012-12-24 : 10-28-40-199 Thread-85 t9 30 - saveTasks-2
+2012-12-24 : 10-28-40-214 Thread-85 t9 30 - saveTasks-3
+2012-12-24 : 10-28-40-214 Thread-85 t9 30 - saveTasks-4:
+2012-12-24 : 10-28-40-214 Thread-85 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-28-40-214 Thread-85 t9 30 - d-无下载任务
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-用户已在线
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-开始读取信息
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取的信息转json
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-处理信息头
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - d-保存下载任务
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - saveTasks-1
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - saveTasks-2
+2012-12-24 : 10-29-00-216 Thread-90 t9 30 - saveTasks-3
+2012-12-24 : 10-29-00-231 Thread-90 t9 30 - saveTasks-4:
+2012-12-24 : 10-29-00-231 Thread-90 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-29-00-231 Thread-90 t9 30 - d-无下载任务
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-用户已在线
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-开始读取信息
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-29-20-246 Thread-93 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-读取的信息转json
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-处理信息头
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-保存下载任务
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - saveTasks-1
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - saveTasks-2
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - saveTasks-3
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - saveTasks-4:
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-29-20-262 Thread-93 t9 30 - d-无下载任务
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-用户已在线
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-开始读取信息
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取的信息转json
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-处理信息头
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-保存下载任务
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - saveTasks-1
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - saveTasks-2
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - saveTasks-3
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - saveTasks-4:
+2012-12-24 : 10-29-40-277 Thread-98 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-29-40-292 Thread-98 t9 30 - d-无下载任务
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-用户已在线
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-开始读取信息
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取的信息转json
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-处理信息头
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-保存下载任务
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - saveTasks-1
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - saveTasks-2
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - saveTasks-3
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - saveTasks-4:
+2012-12-24 : 10-30-00-307 Thread-103 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-30-00-323 Thread-103 t9 30 - d-无下载任务
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-用户已在线
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-开始读取信息
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-24 : 10-30-10-338 Thread-106 t9 30 - d-读取的信息转json
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - d-读取的信息转json成功
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - d-处理信息头
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - d-保存下载任务
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - saveTasks-1
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - saveTasks-2
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - saveTasks-3
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - saveTasks-4:
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - d-保存下载任务成功
+2012-12-24 : 10-30-10-353 Thread-106 t9 30 - d-无下载任务
+2012-12-24 : 10-30-30-368 Thread-111 t9 30 - d-用户已在线
+2012-12-24 : 10-30-30-368 Thread-111 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-24 : 10-30-30-368 Thread-111 t9 30 - d-开始读取信息
+2012-12-24 : 10-30-30-368 Thread-111 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-24 : 10-30-30-368 Thread-111 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0

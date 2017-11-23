@@ -1,0 +1,32 @@
+package ${packageName}.logic;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import t9.core.data.T9RequestDbConn;
+import t9.core.global.T9ActionKeys;
+import t9.core.global.T9BeanKeys;
+import t9.core.global.T9Const;
+import t9.core.util.T9Utility;
+import t9.core.util.db.T9DBUtility;
+
+public class ${className}Logic {
+  public String getById(Connection conn , int id) throws Exception {
+    return "";
+  }
+  public String list(Connection conn) throws Exception {
+    return "";
+  }
+  public String add(Connection conn) throws Exception {
+    String runId = request.getParameter("runId");
+    if (T9Utility.isNullorEmpty(moduleId)) {
+    	//增加
+    } else {
+    	//修改
+    }
+    return moduleId;
+  }
+}

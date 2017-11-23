@@ -1,0 +1,1 @@
+ALTER TABLE port ADD type int(11) COMMENT '模版类型 1为手动添加';

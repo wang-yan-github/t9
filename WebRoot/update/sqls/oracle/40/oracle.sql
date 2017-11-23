@@ -1,0 +1,179 @@
+CREATE TABLE  proj_bug (
+  SEQ_ID NUMBER primary key,
+  PROJ_ID NUMBER  DEFAULT 0,
+  TASK_ID NUMBER ,
+  DEAL_USER VARCHAR2(100) ,
+  BEGIN_USER VARCHAR2(100) ,
+  BUG_NAME VARCHAR2(200) ,
+  DEAD_LINE DATE ,
+  CREAT_TIME DATE ,
+  "LEVEL" NUMBER DEFAULT 0,
+  BUG_DESC CLOB,
+  STATUS NUMBER ,
+  ATTACHMENT_ID CLOB,
+  ATTACHMENT_NAME CLOB,
+  RESULT CLOB
+);
+exec pr_CreateIdentityColumn('proj_bug','SEQ_ID');
+
+CREATE TABLE  proj_comment (
+  SEQ_ID NUMBER primary key,
+  PROJ_ID NUMBER  DEFAULT 0,
+  WRITER VARCHAR2(40) ,
+  WRITE_TIME date ,
+  CONTENT CLOB
+) ;
+exec pr_CreateIdentityColumn('proj_comment','SEQ_ID');
+
+CREATE TABLE  proj_file (
+  SEQ_ID NUMBER primary key,
+  PROJ_ID NUMBER  DEFAULT 0,
+  SORT_ID NUMBER DEFAULT 0,
+  FILE_TYPE NUMBER DEFAULT 0,
+  SUBJECT VARCHAR2(200) ,
+  ATTACHMENT_ID CLOB,
+  ATTACHMENT_NAME CLOB,
+  FILE_DESC CLOB,
+  UPLOAD_USER VARCHAR2(100) ,
+  VERSION VARCHAR2(20) ,
+  UPDATE_TIME date ,
+  HISTORY VARCHAR2(20) ,
+  ACTIVE VARCHAR2(20)
+) ;
+exec pr_CreateIdentityColumn('proj_file','SEQ_ID');
+
+CREATE TABLE  proj_file_log (
+  SEQ_ID NUMBER primary key,
+  FILE_ID NUMBER DEFAULT 0,
+  ACTION NUMBER ,
+  USER_ID NUMBER  ,
+  ACTION_TIME date 
+);
+exec pr_CreateIdentityColumn('proj_file_log','SEQ_ID');
+
+CREATE TABLE  proj_file_sort (
+  SEQ_ID NUMBER primary key,
+  SORT_PARENT NUMBER DEFAULT 0,
+  PROJ_ID NUMBER  DEFAULT 0,
+  SORT_NO VARCHAR2(20) ,
+  SORT_NAME VARCHAR2(200) ,
+  SORT_TYPE VARCHAR2(20) ,
+  VIEW_USER CLOB,
+  NEW_USER CLOB,
+  MANAGE_USER CLOB,
+  MODIFY_USER CLOB
+) ;
+exec pr_CreateIdentityColumn('proj_file_sort','SEQ_ID');
+
+CREATE TABLE  proj_forum (
+  SEQ_ID NUMBER primary key,
+  PROJ_ID NUMBER  DEFAULT 0,
+  USER_ID VARCHAR2(20) ,
+  SUBJECT VARCHAR2(200) ,
+  CONTENT CLOB,
+  ATTACHMENT_ID CLOB,
+  ATTACHMENT_NAME CLOB,
+  SUBMIT_TIME date ,
+  REPLY_CONT NUMBER DEFAULT 0,
+  PARENT NUMBER DEFAULT 0,
+  OLD_SUBMIT_TIME date
+) ;
+exec pr_CreateIdentityColumn('proj_forum','SEQ_ID');
+
+CREATE TABLE  proj_priv (
+  SEQ_ID NUMBER primary key,
+  PRIV_CODE VARCHAR2(40) ,
+  PRIV_USER CLOB,
+  PRIV_ROLE CLOB,
+  PRIV_DEPT CLOB
+);
+exec pr_CreateIdentityColumn('proj_priv','SEQ_ID');
+
+CREATE TABLE  proj_project (
+  SEQ_ID NUMBER primary key,
+  PROJ_NAME VARCHAR2(255)  DEFAULT '',
+  PROJ_NUM VARCHAR2(40)  DEFAULT '',
+  PROJ_DESCRIPTION CLOB,
+  PROJ_TYPE NUMBER DEFAULT 0,
+  PROJ_DEPT VARCHAR2(40) ,
+  PROJ_UPDATE_TIME date ,
+  PROJ_START_TIME date ,
+  PROJ_END_TIME date ,
+  PROJ_ACT_END_TIME date ,
+  PROJ_OWNER VARCHAR2(255) ,
+  PROJ_LEADER VARCHAR2(255) ,
+  PROJ_VIWER CLOB,
+  PROJ_USER CLOB,
+  PROJ_PRIV CLOB,
+  PROJ_MANAGER VARCHAR2(255) ,
+  PROJ_COMMENT CLOB,
+  PROJ_STATUS NUMBER ,
+  PROJ_PERCENT_COMPLETE NUMBER DEFAULT 0,
+  COST_TYPE CLOB,
+  COST_MONEY CLOB,
+  APPROVE_LOG CLOB,
+  ATTACHMENT_ID CLOB,
+  ATTACHMENT_NAME CLOB
+) ;
+exec pr_CreateIdentityColumn('proj_project','SEQ_ID');
+
+CREATE TABLE  proj_task (
+  SEQ_ID NUMBER primary key,
+  PROJ_ID NUMBER  DEFAULT 0,
+  TASK_NO VARCHAR2(40)  DEFAULT '',
+  TASK_NAME VARCHAR2(100) ,
+  TASK_DESCRIPTION CLOB,
+  TASK_USER VARCHAR2(40) ,
+  TASK_MILESTONE NUMBER ,
+  TASK_START_TIME date ,
+  TASK_END_TIME date ,
+  TASK_ACT_END_TIME date  ,
+  TASK_TIME NUMBER DEFAULT 0,
+  TASK_LEVEL VARCHAR2(40) DEFAULT '1',
+  PRE_TASK NUMBER DEFAULT 0,
+  TASK_PERCENT_COMPLETE NUMBER DEFAULT 0,
+  REMARK CLOB,
+  FLOW_ID_STR VARCHAR2(200) ,
+  RUN_ID_STR VARCHAR2(200) ,
+  TASK_STATUS NUMBER DEFAULT 0,
+  TASk_CONSTRAIN NUMBER ,
+  PARENT_TASK NUMBER 
+);
+exec pr_CreateIdentityColumn('proj_task','SEQ_ID');
+
+CREATE TABLE  proj_task_log (
+  SEQ_ID NUMBER primary key,
+  LOG_TYPE NUMBER  DEFAULT 0,
+  TASK_ID NUMBER  DEFAULT 0,
+  LOG_USER VARCHAR2(255) ,
+  LOG_CONTENT CLOB,
+  LOG_TIME date ,
+  PERCENT NUMBER DEFAULT 0,
+  ATTACHMENT_ID CLOB,
+  ATTACHMENT_NAME CLOB
+) ;
+exec pr_CreateIdentityColumn('proj_task_log','SEQ_ID');
+
+INSERT INTO code_item (CLASS_NO,CLASS_CODE,CLASS_DESC,SORT_NO,CODE) VALUES 
+('SMS_REMIND','88','项目管理','88',NULL); 
+
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3501','我的项目','/project/proj/projectList.jsp','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3505','我的任务','/project/task/index.jsp','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3510','项目审批','/project/approve/','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3515','项目文档','/project/doc/index.jsp','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3520','项目问题','/project/bug/','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('3525','基础参数设置','org','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('352501','项目权限设置','/project/setting/priv/','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('352505','项目代码设置','/project/setting/code/','edit.gif','0'); 
+INSERT INTO sys_function (MENU_ID,FUNC_NAME,FUNC_CODE,ICON,OPEN_FLAG) VALUES 
+('352510','项目模板管理','/project/setting/template/','edit.gif','0'); 
+INSERT INTO sys_menu (MENU_ID,MENU_NAME,IMAGE) VALUES 
+('35','项目管理','sys.gif');

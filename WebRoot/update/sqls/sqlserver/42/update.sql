@@ -1,0 +1,2 @@
+ALTER TABLE calendar ADD CALENDARS TEXT;
+alter table proj_project ALTER COLUMN PROJ_DEPT TEXT ;

@@ -1,0 +1,1444 @@
+2012-12-26 : 10-21-55-269 Thread-141 t9 30 - d-登陆失败
+2012-12-26 : 10-22-15-285 Thread-145 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-22-15-285 Thread-147 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-22-15-285 Thread-147 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-22-15-285 Thread-145 t9 30 - d-登陆失败
+2012-12-26 : 10-22-35-285 Thread-148 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-22-35-301 Thread-150 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-22-35-301 Thread-150 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-22-35-301 Thread-148 t9 30 - d-登陆失败
+2012-12-26 : 10-22-55-301 Thread-152 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-22-55-317 Thread-154 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-22-55-317 Thread-154 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-22-55-317 Thread-152 t9 30 - d-登陆失败
+2012-12-26 : 10-23-15-317 Thread-155 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-23-15-317 Thread-157 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-23-15-332 Thread-157 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-23-15-332 Thread-155 t9 30 - d-登陆失败
+2012-12-26 : 10-23-35-325 Thread-159 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-23-35-340 Thread-160 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-23-35-340 Thread-160 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-23-35-340 Thread-159 t9 30 - d-登陆失败
+2012-12-26 : 10-23-55-331 Thread-162 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-23-55-331 Thread-164 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-23-55-331 Thread-164 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-23-55-346 Thread-162 t9 30 - d-登陆失败
+2012-12-26 : 10-24-05-346 Thread-166 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-24-05-346 Thread-166 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-24-15-343 Thread-167 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-24-15-363 Thread-167 t9 30 - d-登陆失败
+2012-12-26 : 10-24-25-351 Thread-169 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-24-25-361 Thread-169 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-24-35-362 Thread-170 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-24-35-378 Thread-172 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-24-35-378 Thread-172 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-24-35-378 Thread-170 t9 30 - d-登陆失败
+2012-12-26 : 10-24-55-372 Thread-177 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-24-55-372 Thread-179 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-24-55-372 Thread-179 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-24-55-392 Thread-177 t9 30 - d-登陆失败
+2012-12-26 : 10-25-05-382 Thread-181 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-25-05-382 Thread-181 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-25-15-397 Thread-182 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-25-15-413 Thread-184 t9 30 - ua-自动上传线程报错：对象名 'ESB_UPLOAD_TASK' 无效。
+2012-12-26 : 10-25-15-413 Thread-184 t9.core.esb.frontend.T9EsbFrontendAuto 75 - 对象名 'ESB_UPLOAD_TASK' 无效。
+java.sql.SQLException: 对象名 'ESB_UPLOAD_TASK' 无效。
+	at net.sourceforge.jtds.jdbc.SQLDiagnostic.addDiagnostic(SQLDiagnostic.java:368)
+	at net.sourceforge.jtds.jdbc.TdsCore.tdsErrorToken(TdsCore.java:2820)
+	at net.sourceforge.jtds.jdbc.TdsCore.nextToken(TdsCore.java:2258)
+	at net.sourceforge.jtds.jdbc.TdsCore.getMoreResults(TdsCore.java:632)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:477)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeQuery(JtdsStatement.java:1304)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at org.apache.commons.dbcp.DelegatingStatement.executeQuery(DelegatingStatement.java:208)
+	at t9.core.esb.frontend.logic.T9EsbFrontendLogic.getUploadFieldTaskByStatus(T9EsbFrontendLogic.java:27)
+	at t9.core.esb.frontend.T9EsbFrontendAuto.doTask(T9EsbFrontendAuto.java:27)
+	at t9.core.autorun.T9AutoRun.run(T9AutoRun.java:101)
+	at java.lang.Thread.run(Unknown Source)
+2012-12-26 : 10-25-15-413 Thread-182 t9 30 - d-登陆失败
+2012-12-26 : 10-26-59-909 Thread-8 t9 30 - d-未登陆,开始登陆
+2012-12-26 : 10-27-00-018 Thread-8 t9 30 - d-登陆成功
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-发送请求<获取信息>:耗时:78
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-开始读取信息
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取的信息转json
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-处理信息头
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-保存下载任务
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - saveTasks-1
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - saveTasks-2
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - saveTasks-3
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - saveTasks-4:
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-27-00-096 Thread-8 t9 30 - d-无下载任务
+2012-12-26 : 10-27-18-645 Thread-12 t9 30 - d-用户已在线
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-开始读取信息
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取的信息转json
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-处理信息头
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-保存下载任务
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - saveTasks-1
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - saveTasks-2
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - saveTasks-3
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - saveTasks-4:
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-27-18-660 Thread-12 t9 30 - d-无下载任务
+2012-12-26 : 10-27-38-675 Thread-15 t9 30 - d-用户已在线
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-开始读取信息
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取的信息转json
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-处理信息头
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-保存下载任务
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - saveTasks-1
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - saveTasks-2
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - saveTasks-3
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - saveTasks-4:
+2012-12-26 : 10-27-38-691 Thread-15 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-27-38-706 Thread-15 t9 30 - d-无下载任务
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-用户已在线
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-开始读取信息
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-27-58-721 Thread-18 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-读取的信息转json
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-处理信息头
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-保存下载任务
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - saveTasks-1
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - saveTasks-2
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - saveTasks-3
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - saveTasks-4:
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-27-58-737 Thread-18 t9 30 - d-无下载任务
+2012-12-26 : 10-28-18-752 Thread-21 t9 30 - d-用户已在线
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-开始读取信息
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取的信息转json
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-处理信息头
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-保存下载任务
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - saveTasks-1
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - saveTasks-2
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - saveTasks-3
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - saveTasks-4:
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-28-18-767 Thread-21 t9 30 - d-无下载任务
+2012-12-26 : 10-28-38-766 Thread-24 t9 30 - d-用户已在线
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-开始读取信息
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取的信息转json
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-处理信息头
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-保存下载任务
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - saveTasks-1
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - saveTasks-2
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - saveTasks-3
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - saveTasks-4:
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-28-38-782 Thread-24 t9 30 - d-无下载任务
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-用户已在线
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-开始读取信息
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-28-58-797 Thread-27 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-读取的信息转json
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-处理信息头
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-保存下载任务
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - saveTasks-1
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - saveTasks-2
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - saveTasks-3
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - saveTasks-4:
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-28-58-812 Thread-27 t9 30 - d-无下载任务
+2012-12-26 : 10-29-18-827 Thread-32 t9 30 - d-用户已在线
+2012-12-26 : 10-29-18-827 Thread-32 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-开始读取信息
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取的信息转json
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-处理信息头
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-保存下载任务
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - saveTasks-1
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - saveTasks-2
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - saveTasks-3
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - saveTasks-4:
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-29-18-843 Thread-32 t9 30 - d-无下载任务
+2012-12-26 : 10-29-38-858 Thread-37 t9 30 - d-用户已在线
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-开始读取信息
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取的信息转json
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-处理信息头
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-保存下载任务
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - saveTasks-1
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - saveTasks-2
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - saveTasks-3
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - saveTasks-4:
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-29-38-873 Thread-37 t9 30 - d-无下载任务
+2012-12-26 : 10-29-58-888 Thread-40 t9 30 - d-用户已在线
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-开始读取信息
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取的信息转json
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-处理信息头
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-保存下载任务
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - saveTasks-1
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - saveTasks-2
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - saveTasks-3
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - saveTasks-4:
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-29-58-904 Thread-40 t9 30 - d-无下载任务
+2012-12-26 : 10-30-18-919 Thread-43 t9 30 - d-用户已在线
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-开始读取信息
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取的信息转json
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-处理信息头
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-保存下载任务
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - saveTasks-1
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - saveTasks-2
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - saveTasks-3
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - saveTasks-4:
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-30-18-934 Thread-43 t9 30 - d-无下载任务
+2012-12-26 : 10-30-38-949 Thread-48 t9 30 - d-用户已在线
+2012-12-26 : 10-30-38-949 Thread-48 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-开始读取信息
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取的信息转json
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-处理信息头
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-保存下载任务
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - saveTasks-1
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - saveTasks-2
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - saveTasks-3
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - saveTasks-4:
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-30-38-965 Thread-48 t9 30 - d-无下载任务
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-用户已在线
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-开始读取信息
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-30-58-979 Thread-53 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-读取的信息转json
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-处理信息头
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-保存下载任务
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - saveTasks-1
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - saveTasks-2
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - saveTasks-3
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - saveTasks-4:
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-30-58-995 Thread-53 t9 30 - d-无下载任务
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-用户已在线
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-开始读取信息
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取的信息转json
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-处理信息头
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-保存下载任务
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - saveTasks-1
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - saveTasks-2
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - saveTasks-3
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - saveTasks-4:
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-31-19-010 Thread-58 t9 30 - d-无下载任务
+2012-12-26 : 10-31-29-025 Thread-61 t9 30 - d-用户已在线
+2012-12-26 : 10-31-29-041 Thread-61 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-开始读取信息
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取的信息转json
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-处理信息头
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-保存下载任务
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - saveTasks-1
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - saveTasks-2
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - saveTasks-3
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - saveTasks-4:
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-31-29-056 Thread-61 t9 30 - d-无下载任务
+2012-12-26 : 10-31-49-056 Thread-64 t9 30 - d-用户已在线
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-开始读取信息
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取的信息转json
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-处理信息头
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-保存下载任务
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - saveTasks-1
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - saveTasks-2
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - saveTasks-3
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - saveTasks-4:
+2012-12-26 : 10-31-49-071 Thread-64 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-31-49-165 Thread-64 t9 30 - d-无下载任务
+2012-12-26 : 10-32-09-086 Thread-70 t9 30 - d-用户已在线
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-开始读取信息
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取的信息转json
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-处理信息头
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-保存下载任务
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - saveTasks-1
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - saveTasks-2
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - saveTasks-3
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - saveTasks-4:
+2012-12-26 : 10-32-09-102 Thread-70 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-32-09-117 Thread-70 t9 30 - d-无下载任务
+2012-12-26 : 10-32-29-116 Thread-75 t9 30 - d-用户已在线
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-开始读取信息
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取的信息转json
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-处理信息头
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-保存下载任务
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - saveTasks-1
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - saveTasks-2
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - saveTasks-3
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - saveTasks-4:
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-32-29-132 Thread-75 t9 30 - d-无下载任务
+2012-12-26 : 10-32-49-147 Thread-80 t9 30 - d-用户已在线
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-开始读取信息
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取的信息转json
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-处理信息头
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-保存下载任务
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - saveTasks-1
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - saveTasks-2
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - saveTasks-3
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - saveTasks-4:
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-32-49-162 Thread-80 t9 30 - d-无下载任务
+2012-12-26 : 10-33-09-177 Thread-83 t9 30 - d-用户已在线
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-开始读取信息
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取的信息转json
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-处理信息头
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-保存下载任务
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - saveTasks-1
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - saveTasks-2
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - saveTasks-3
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - saveTasks-4:
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-33-09-193 Thread-83 t9 30 - d-无下载任务
+2012-12-26 : 10-33-29-208 Thread-86 t9 30 - d-用户已在线
+2012-12-26 : 10-33-29-208 Thread-86 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-开始读取信息
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取的信息转json
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-处理信息头
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-保存下载任务
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - saveTasks-1
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - saveTasks-2
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - saveTasks-3
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - saveTasks-4:
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-33-29-223 Thread-86 t9 30 - d-无下载任务
+2012-12-26 : 10-33-49-238 Thread-91 t9 30 - d-用户已在线
+2012-12-26 : 10-33-49-238 Thread-91 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-开始读取信息
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取的信息转json
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-处理信息头
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-保存下载任务
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - saveTasks-1
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - saveTasks-2
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - saveTasks-3
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - saveTasks-4:
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-33-49-254 Thread-91 t9 30 - d-无下载任务
+2012-12-26 : 10-34-09-269 Thread-94 t9 30 - d-用户已在线
+2012-12-26 : 10-34-09-269 Thread-94 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-34-09-269 Thread-94 t9 30 - d-开始读取信息
+2012-12-26 : 10-34-09-269 Thread-94 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：15
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-读取的信息转json
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-处理信息头
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-保存下载任务
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - saveTasks-1
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - saveTasks-2
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - saveTasks-3
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - saveTasks-4:
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-34-09-284 Thread-94 t9 30 - d-无下载任务
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-用户已在线
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-开始读取信息
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-34-29-299 Thread-97 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-读取的信息转json
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-处理信息头
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-保存下载任务
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - saveTasks-1
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - saveTasks-2
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - saveTasks-3
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - saveTasks-4:
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-34-29-315 Thread-97 t9 30 - d-无下载任务
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-用户已在线
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-开始读取信息
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-34-49-329 Thread-102 t9 30 - d-读取的信息转json
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - d-处理信息头
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - d-保存下载任务
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - saveTasks-1
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - saveTasks-2
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - saveTasks-3
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - saveTasks-4:
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-34-49-345 Thread-102 t9 30 - d-无下载任务
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-用户已在线
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-开始读取信息
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-35-09-360 Thread-107 t9 30 - d-读取的信息转json
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - d-处理信息头
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - d-保存下载任务
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - saveTasks-1
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - saveTasks-2
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - saveTasks-3
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - saveTasks-4:
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-35-09-375 Thread-107 t9 30 - d-无下载任务
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-用户已在线
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-开始读取信息
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-35-29-390 Thread-112 t9 30 - d-读取的信息转json
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - d-处理信息头
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - d-保存下载任务
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - saveTasks-1
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - saveTasks-2
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - saveTasks-3
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - saveTasks-4:
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-35-29-406 Thread-112 t9 30 - d-无下载任务
+2012-12-26 : 10-35-49-421 Thread-117 t9 30 - d-用户已在线
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-开始读取信息
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取的信息转json
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-处理信息头
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-保存下载任务
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - saveTasks-1
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - saveTasks-2
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - saveTasks-3
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - saveTasks-4:
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-35-49-436 Thread-117 t9 30 - d-无下载任务
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-用户已在线
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-开始读取信息
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-36-09-451 Thread-122 t9 30 - d-读取的信息转json
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - d-处理信息头
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - d-保存下载任务
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - saveTasks-1
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - saveTasks-2
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - saveTasks-3
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - saveTasks-4:
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-36-09-467 Thread-122 t9 30 - d-无下载任务
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-用户已在线
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-开始读取信息
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取的信息转json
+2012-12-26 : 10-36-29-471 Thread-126 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - d-处理信息头
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - d-保存下载任务
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - saveTasks-1
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - saveTasks-2
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - saveTasks-3
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - saveTasks-4:
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-36-29-486 Thread-126 t9 30 - d-无下载任务
+2012-12-26 : 10-36-49-495 Thread-131 t9 30 - d-用户已在线
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-开始读取信息
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取的信息转json
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-处理信息头
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-保存下载任务
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - saveTasks-1
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - saveTasks-2
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - saveTasks-3
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - saveTasks-4:
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-36-49-511 Thread-131 t9 30 - d-无下载任务
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-用户已在线
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-开始读取信息
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取的信息转json
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-处理信息头
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-保存下载任务
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - saveTasks-1
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - saveTasks-2
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - saveTasks-3
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - saveTasks-4:
+2012-12-26 : 10-37-09-526 Thread-139 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-37-09-541 Thread-139 t9 30 - d-无下载任务
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-用户已在线
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-开始读取信息
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-37-29-556 Thread-144 t9 30 - d-读取的信息转json
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - d-处理信息头
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - d-保存下载任务
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - saveTasks-1
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - saveTasks-2
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - saveTasks-3
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - saveTasks-4:
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-37-29-572 Thread-144 t9 30 - d-无下载任务
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-用户已在线
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-开始读取信息
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-37-49-587 Thread-149 t9 30 - d-读取的信息转json
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - d-处理信息头
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - d-保存下载任务
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - saveTasks-1
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - saveTasks-2
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - saveTasks-3
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - saveTasks-4:
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-37-49-602 Thread-149 t9 30 - d-无下载任务
+2012-12-26 : 10-38-09-606 Thread-154 t9 30 - d-用户已在线
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-开始读取信息
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取的信息转json
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-处理信息头
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-保存下载任务
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - saveTasks-1
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - saveTasks-2
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - saveTasks-3
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - saveTasks-4:
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-38-09-621 Thread-154 t9 30 - d-无下载任务
+2012-12-26 : 10-38-29-624 Thread-159 t9 30 - d-用户已在线
+2012-12-26 : 10-38-29-634 Thread-159 t9 30 - d-发送请求<获取信息>:耗时:10
+2012-12-26 : 10-38-29-634 Thread-159 t9 30 - d-开始读取信息
+2012-12-26 : 10-38-29-634 Thread-159 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-38-29-634 Thread-159 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-38-29-634 Thread-159 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：10
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-读取的信息转json
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-处理信息头
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-保存下载任务
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - saveTasks-1
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - saveTasks-2
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - saveTasks-3
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - saveTasks-4:
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-38-29-644 Thread-159 t9 30 - d-无下载任务
+2012-12-26 : 10-38-49-629 Thread-163 t9 30 - d-用户已在线
+2012-12-26 : 10-38-49-637 Thread-163 t9 30 - d-发送请求<获取信息>:耗时:8
+2012-12-26 : 10-38-49-637 Thread-163 t9 30 - d-开始读取信息
+2012-12-26 : 10-38-49-637 Thread-163 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-38-49-637 Thread-163 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：2
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-读取的信息转json
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-处理信息头
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - d-保存下载任务
+2012-12-26 : 10-38-49-639 Thread-163 t9 30 - saveTasks-1
+2012-12-26 : 10-38-49-642 Thread-163 t9 30 - saveTasks-2
+2012-12-26 : 10-38-49-642 Thread-163 t9 30 - saveTasks-3
+2012-12-26 : 10-38-49-642 Thread-163 t9 30 - saveTasks-4:
+2012-12-26 : 10-38-49-642 Thread-163 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-38-49-644 Thread-163 t9 30 - d-无下载任务
+2012-12-26 : 10-39-09-629 Thread-166 t9 30 - d-用户已在线
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-发送请求<获取信息>:耗时:10
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-开始读取信息
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取的信息转json
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-处理信息头
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-保存下载任务
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - saveTasks-1
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - saveTasks-2
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - saveTasks-3
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - saveTasks-4:
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-39-09-639 Thread-166 t9 30 - d-无下载任务
+2012-12-26 : 10-39-19-644 Thread-169 t9 30 - d-用户已在线
+2012-12-26 : 10-39-19-644 Thread-169 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-39-19-644 Thread-169 t9 30 - d-开始读取信息
+2012-12-26 : 10-39-19-644 Thread-169 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-39-19-644 Thread-169 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-读取的信息转json
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-处理信息头
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-保存下载任务
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - saveTasks-1
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - saveTasks-2
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - saveTasks-3
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - saveTasks-4:
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-39-19-660 Thread-169 t9 30 - d-无下载任务
+2012-12-26 : 10-39-39-675 Thread-172 t9 30 - d-用户已在线
+2012-12-26 : 10-39-39-675 Thread-172 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-39-39-675 Thread-172 t9 30 - d-开始读取信息
+2012-12-26 : 10-39-39-675 Thread-172 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-39-39-675 Thread-172 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：15
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-读取的信息转json
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-处理信息头
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-保存下载任务
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - saveTasks-1
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - saveTasks-2
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - saveTasks-3
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - saveTasks-4:
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-39-39-690 Thread-172 t9 30 - d-无下载任务
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-用户已在线
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-开始读取信息
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取的信息转json
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-处理信息头
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - d-保存下载任务
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - saveTasks-1
+2012-12-26 : 10-39-59-705 Thread-177 t9 30 - saveTasks-2
+2012-12-26 : 10-39-59-721 Thread-177 t9 30 - saveTasks-3
+2012-12-26 : 10-39-59-721 Thread-177 t9 30 - saveTasks-4:
+2012-12-26 : 10-39-59-721 Thread-177 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-39-59-721 Thread-177 t9 30 - d-无下载任务
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-用户已在线
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-开始读取信息
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-40-19-736 Thread-182 t9 30 - d-读取的信息转json
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - d-处理信息头
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - d-保存下载任务
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - saveTasks-1
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - saveTasks-2
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - saveTasks-3
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - saveTasks-4:
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-40-19-751 Thread-182 t9 30 - d-无下载任务
+2012-12-26 : 10-40-39-766 Thread-185 t9 30 - d-用户已在线
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-开始读取信息
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取的信息转json
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-处理信息头
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-保存下载任务
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - saveTasks-1
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - saveTasks-2
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - saveTasks-3
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - saveTasks-4:
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-40-39-782 Thread-185 t9 30 - d-无下载任务
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-用户已在线
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-开始读取信息
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-40-59-796 Thread-188 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-读取的信息转json
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-处理信息头
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-保存下载任务
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - saveTasks-1
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - saveTasks-2
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - saveTasks-3
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - saveTasks-4:
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-40-59-812 Thread-188 t9 30 - d-无下载任务
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-用户已在线
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-开始读取信息
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取的信息转json
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-处理信息头
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-保存下载任务
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - saveTasks-1
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - saveTasks-2
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - saveTasks-3
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - saveTasks-4:
+2012-12-26 : 10-41-19-827 Thread-191 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-41-19-842 Thread-191 t9 30 - d-无下载任务
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-用户已在线
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-开始读取信息
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-41-39-857 Thread-196 t9 30 - d-读取的信息转json
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - d-处理信息头
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - d-保存下载任务
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - saveTasks-1
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - saveTasks-2
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - saveTasks-3
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - saveTasks-4:
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-41-39-873 Thread-196 t9 30 - d-无下载任务
+2012-12-26 : 10-41-59-888 Thread-201 t9 30 - d-用户已在线
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-开始读取信息
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取的信息转json
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-处理信息头
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-保存下载任务
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - saveTasks-1
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - saveTasks-2
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - saveTasks-3
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - saveTasks-4:
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-41-59-903 Thread-201 t9 30 - d-无下载任务
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-用户已在线
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-开始读取信息
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取的信息转json
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-处理信息头
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-保存下载任务
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - saveTasks-1
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - saveTasks-2
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - saveTasks-3
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - saveTasks-4:
+2012-12-26 : 10-42-19-918 Thread-205 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-42-19-934 Thread-205 t9 30 - d-无下载任务
+2012-12-26 : 10-42-39-949 Thread-210 t9 30 - d-用户已在线
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-开始读取信息
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取的信息转json
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-处理信息头
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-保存下载任务
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - saveTasks-1
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - saveTasks-2
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - saveTasks-3
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - saveTasks-4:
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-42-39-964 Thread-210 t9 30 - d-无下载任务
+2012-12-26 : 10-43-00-010 Thread-213 t9 30 - d-用户已在线
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-开始读取信息
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取的信息转json
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-处理信息头
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-保存下载任务
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - saveTasks-1
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - saveTasks-2
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - saveTasks-3
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - saveTasks-4:
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-43-00-026 Thread-213 t9 30 - d-无下载任务
+2012-12-26 : 10-43-20-009 Thread-218 t9 30 - d-用户已在线
+2012-12-26 : 10-43-20-009 Thread-218 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-43-20-009 Thread-218 t9 30 - d-开始读取信息
+2012-12-26 : 10-43-20-009 Thread-218 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-读取的信息转json
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-处理信息头
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-保存下载任务
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - saveTasks-1
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - saveTasks-2
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - saveTasks-3
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - saveTasks-4:
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-43-20-025 Thread-218 t9 30 - d-无下载任务
+2012-12-26 : 10-43-40-040 Thread-221 t9 30 - d-用户已在线
+2012-12-26 : 10-43-40-040 Thread-221 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-开始读取信息
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取的信息转json
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-处理信息头
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-保存下载任务
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - saveTasks-1
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - saveTasks-2
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - saveTasks-3
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - saveTasks-4:
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-43-40-056 Thread-221 t9 30 - d-无下载任务
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-用户已在线
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-开始读取信息
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-44-00-070 Thread-226 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-读取的信息转json
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-处理信息头
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-保存下载任务
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - saveTasks-1
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - saveTasks-2
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - saveTasks-3
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - saveTasks-4:
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-44-00-086 Thread-226 t9 30 - d-无下载任务
+2012-12-26 : 10-44-20-101 Thread-229 t9 30 - d-用户已在线
+2012-12-26 : 10-44-20-101 Thread-229 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-44-20-101 Thread-229 t9 30 - d-开始读取信息
+2012-12-26 : 10-44-20-101 Thread-229 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：15
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-读取的信息转json
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-处理信息头
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-保存下载任务
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - saveTasks-1
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - saveTasks-2
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - saveTasks-3
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - saveTasks-4:
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-44-20-116 Thread-229 t9 30 - d-无下载任务
+2012-12-26 : 10-44-40-131 Thread-234 t9 30 - d-用户已在线
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-开始读取信息
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取的信息转json
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-处理信息头
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-保存下载任务
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - saveTasks-1
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - saveTasks-2
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - saveTasks-3
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - saveTasks-4:
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-44-40-147 Thread-234 t9 30 - d-无下载任务
+2012-12-26 : 10-45-00-162 Thread-237 t9 30 - d-用户已在线
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-发送请求<获取信息>:耗时:15
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-开始读取信息
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取的信息转json
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-处理信息头
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-保存下载任务
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - saveTasks-1
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - saveTasks-2
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - saveTasks-3
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - saveTasks-4:
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-45-00-177 Thread-237 t9 30 - d-无下载任务
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-用户已在线
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-开始读取信息
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-45-20-192 Thread-242 t9 30 - d-读取的信息转json
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - d-处理信息头
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - d-保存下载任务
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - saveTasks-1
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - saveTasks-2
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - saveTasks-3
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - saveTasks-4:
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-45-20-208 Thread-242 t9 30 - d-无下载任务
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-用户已在线
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-开始读取信息
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-45-40-223 Thread-245 t9 30 - d-读取的信息转json
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - d-处理信息头
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - d-保存下载任务
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - saveTasks-1
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - saveTasks-2
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - saveTasks-3
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - saveTasks-4:
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-45-40-238 Thread-245 t9 30 - d-无下载任务
+2012-12-26 : 10-46-00-253 Thread-248 t9 30 - d-用户已在线
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-开始读取信息
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取的信息转json
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-处理信息头
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-保存下载任务
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - saveTasks-1
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - saveTasks-2
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - saveTasks-3
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - saveTasks-4:
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-46-00-269 Thread-248 t9 30 - d-无下载任务
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-用户已在线
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-开始读取信息
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取的信息转json
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-处理信息头
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-保存下载任务
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - saveTasks-1
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - saveTasks-2
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - saveTasks-3
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - saveTasks-4:
+2012-12-26 : 10-46-20-283 Thread-251 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-46-20-299 Thread-251 t9 30 - d-无下载任务
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-用户已在线
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-开始读取信息
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-46-40-314 Thread-256 t9 30 - d-读取的信息转json
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - d-处理信息头
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - d-保存下载任务
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - saveTasks-1
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - saveTasks-2
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - saveTasks-3
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - saveTasks-4:
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-46-40-329 Thread-256 t9 30 - d-无下载任务
+2012-12-26 : 10-47-00-344 Thread-261 t9 30 - d-用户已在线
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-开始读取信息
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取的信息转json
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-处理信息头
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-保存下载任务
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - saveTasks-1
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - saveTasks-2
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - saveTasks-3
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - saveTasks-4:
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-47-00-360 Thread-261 t9 30 - d-无下载任务
+2012-12-26 : 10-47-20-358 Thread-264 t9 30 - d-用户已在线
+2012-12-26 : 10-47-20-368 Thread-264 t9 30 - d-发送请求<获取信息>:耗时:10
+2012-12-26 : 10-47-20-369 Thread-264 t9 30 - d-开始读取信息
+2012-12-26 : 10-47-20-369 Thread-264 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-47-20-369 Thread-264 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-47-20-369 Thread-264 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-47-20-370 Thread-264 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：1
+2012-12-26 : 10-47-20-370 Thread-264 t9 30 - d-读取的信息转json
+2012-12-26 : 10-47-20-371 Thread-264 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-47-20-371 Thread-264 t9 30 - d-处理信息头
+2012-12-26 : 10-47-20-371 Thread-264 t9 30 - d-保存下载任务
+2012-12-26 : 10-47-20-371 Thread-264 t9 30 - saveTasks-1
+2012-12-26 : 10-47-20-372 Thread-264 t9 30 - saveTasks-2
+2012-12-26 : 10-47-20-372 Thread-264 t9 30 - saveTasks-3
+2012-12-26 : 10-47-20-372 Thread-264 t9 30 - saveTasks-4:
+2012-12-26 : 10-47-20-372 Thread-264 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-47-20-384 Thread-264 t9 30 - d-无下载任务
+2012-12-26 : 10-47-40-364 Thread-268 t9 30 - d-用户已在线
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-开始读取信息
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取的信息转json
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-处理信息头
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-保存下载任务
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - saveTasks-1
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - saveTasks-2
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - saveTasks-3
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - saveTasks-4:
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-47-40-380 Thread-268 t9 30 - d-无下载任务
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-用户已在线
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-开始读取信息
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取的信息转json
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-处理信息头
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-保存下载任务
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - saveTasks-1
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - saveTasks-2
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - saveTasks-3
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - saveTasks-4:
+2012-12-26 : 10-48-00-394 Thread-271 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-48-00-410 Thread-271 t9 30 - d-无下载任务
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-用户已在线
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-开始读取信息
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取的信息转json
+2012-12-26 : 10-48-20-425 Thread-276 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - d-处理信息头
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - d-保存下载任务
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - saveTasks-1
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - saveTasks-2
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - saveTasks-3
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - saveTasks-4:
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-48-20-440 Thread-276 t9 30 - d-无下载任务
+2012-12-26 : 10-48-40-455 Thread-279 t9 30 - d-用户已在线
+2012-12-26 : 10-48-40-455 Thread-279 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-48-40-455 Thread-279 t9 30 - d-开始读取信息
+2012-12-26 : 10-48-40-455 Thread-279 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：16
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-读取的信息转json
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-处理信息头
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-保存下载任务
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - saveTasks-1
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - saveTasks-2
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - saveTasks-3
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - saveTasks-4:
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-48-40-471 Thread-279 t9 30 - d-无下载任务
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-用户已在线
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-开始读取信息
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-49-00-486 Thread-282 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：15
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-读取的信息转json
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-处理信息头
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-保存下载任务
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - saveTasks-1
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - saveTasks-2
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - saveTasks-3
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - saveTasks-4:
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-49-00-501 Thread-282 t9 30 - d-无下载任务
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-用户已在线
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-开始读取信息
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-49-20-516 Thread-287 t9 30 - d-读取的信息转json
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - d-处理信息头
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - d-保存下载任务
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - saveTasks-1
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - saveTasks-2
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - saveTasks-3
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - saveTasks-4:
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-49-20-532 Thread-287 t9 30 - d-无下载任务
+2012-12-26 : 10-49-40-547 Thread-292 t9 30 - d-用户已在线
+2012-12-26 : 10-49-40-547 Thread-292 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-49-40-547 Thread-292 t9 30 - d-开始读取信息
+2012-12-26 : 10-49-40-547 Thread-292 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-49-40-547 Thread-292 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：15
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-读取的信息转json
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-处理信息头
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-保存下载任务
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - saveTasks-1
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - saveTasks-2
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - saveTasks-3
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - saveTasks-4:
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-49-40-562 Thread-292 t9 30 - d-无下载任务
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-用户已在线
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-发送请求<获取信息>:耗时:0
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-开始读取信息
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取的信息转json
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-处理信息头
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-保存下载任务
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - saveTasks-1
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - saveTasks-2
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - saveTasks-3
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - saveTasks-4:
+2012-12-26 : 10-50-00-577 Thread-297 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-50-00-593 Thread-297 t9 30 - d-无下载任务
+2012-12-26 : 10-50-20-607 Thread-302 t9 30 - d-用户已在线
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-发送请求<获取信息>:耗时:16
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-开始读取信息
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取的信息转json
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-处理信息头
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-保存下载任务
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - saveTasks-1
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - saveTasks-2
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - saveTasks-3
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - saveTasks-4:
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-50-20-623 Thread-302 t9 30 - d-无下载任务
+2012-12-26 : 10-50-40-638 Thread-305 t9 30 - d-用户已在线
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-发送请求<获取信息>:耗时:31
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-开始读取信息
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileL，耗时：0
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取：ength:"",fileName:"",tasks:"",contentMd5:"",messag，耗时：0
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取：e2:""}，耗时：0
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取：{message:"",optGuid:"",fromId:"",fileType:"",fileLength:"",fileName:"",tasks:"",contentMd5:"",message2:""}，总耗时：0
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取的信息转json
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-读取的信息转json成功
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-处理信息头
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-保存下载任务
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - saveTasks-1
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - saveTasks-2
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - saveTasks-3
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - saveTasks-4:
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-保存下载任务成功
+2012-12-26 : 10-50-40-669 Thread-305 t9 30 - d-无下载任务
+2012-12-26 : 10-51-00-668 Thread-308 t9 30 - d-用户已在线

@@ -1,0 +1,1 @@
+var module_ie_im="im";     //浏览模式，im模式

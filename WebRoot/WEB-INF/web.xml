@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+<display-name>TD T9 Plateform</display-name>
+<description>
+A Plateform application for rapid development
+</description>
+
+<servlet>
+  <servlet-name>action</servlet-name>
+  <servlet-class>t9.core.servlet.T9ActionServlet</servlet-class>
+  <init-param>
+    <param-name>SysConfigFile</param-name>
+    <param-value>WEB-INF/config/sysconfig.properties</param-value>
+  </init-param>
+  <init-param>
+    <param-name>debug</param-name> 
+    <param-value>2</param-value>
+  </init-param>
+  <init-param>
+    <param-name>detail</param-name>
+    <param-value>2</param-value>
+  </init-param>
+  <load-on-startup>2</load-on-startup>
+</servlet>
+<servlet-mapping>
+  <servlet-name>action</servlet-name>
+  <url-pattern>*.act</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>getFile</servlet-name>
+  <servlet-class>t9.core.servlet.T9GetFileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>getFile</servlet-name>
+  <url-pattern>/getFile</url-pattern>
+</servlet-mapping>
+
+<servlet> 
+  <servlet-name>AxisServlet</servlet-name> 
+  <display-name>Apache-Axis Servlet</display-name> 
+  <servlet-class> 
+  org.apache.axis.transport.http.AxisServlet 
+  </servlet-class> 
+</servlet> 
+
+<servlet> 
+  <servlet-name>AdminServlet</servlet-name> 
+  <display-name>Axis Admin Servlet</display-name> 
+  <servlet-class> 
+  org.apache.axis.transport.http.AdminServlet 
+  </servlet-class> 
+  <load-on-startup>100</load-on-startup> 
+</servlet> 
+
+<servlet> 
+  <servlet-name>SOAPMonitorService</servlet-name> 
+  <display-name>SOAPMonitorService</display-name> 
+  <servlet-class> 
+  org.apache.axis.monitor.SOAPMonitorService 
+  </servlet-class> 
+  <init-param> 
+  <param-name>SOAPMonitorPort</param-name> 
+  <param-value>5001</param-value> 
+  </init-param> 
+  <load-on-startup>100</load-on-startup> 
+</servlet> 
+
+<servlet-mapping> 
+  <servlet-name>AxisServlet</servlet-name> 
+  <url-pattern>/core/ws/axis/servlet/AxisServlet</url-pattern> 
+</servlet-mapping> 
+
+<servlet-mapping> 
+  <servlet-name>AxisServlet</servlet-name> 
+  <url-pattern>*.jws</url-pattern> 
+</servlet-mapping> 
+
+<servlet-mapping> 
+  <servlet-name>AxisServlet</servlet-name> 
+  <url-pattern>/services/*</url-pattern> 
+</servlet-mapping> 
+
+<servlet-mapping> 
+  <servlet-name>SOAPMonitorService</servlet-name> 
+  <url-pattern>/axis/SOAPMonitor</url-pattern> 
+</servlet-mapping>
+
+<filter>
+    <filter-name>CrossDomainFilter</filter-name>
+    <filter-class>t9.core.filter.CrossDomainFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>CrossDomainFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+<filter>
+  <filter-name>SetCharacterEncoding</filter-name>
+  <filter-class>t9.core.servlet.T9RequestFilter</filter-class>
+  <init-param>
+  <param-name>encoding</param-name>
+  <param-value>UTF-8</param-value>
+  </init-param>
+</filter>
+<filter-mapping>
+  <filter-name>SetCharacterEncoding</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+<filter> 
+  <filter-name>UASFilter</filter-name> 
+  <filter-class>com.bjca.sso.filter.UamsFilter</filter-class> 
+  <init-param> 
+  <param-name>secUrl</param-name> 
+  <param-value> 
+  http://172.24.57.122:7002/GovSSOService/SSOTSecService</param-value> 
+  </init-param> 
+  <init-param> 
+  <param-name>errorUrl</param-name> 
+  <param-value>error.jsp</param-value> 
+  </init-param> 
+</filter> 
+<filter-mapping> 
+  <filter-name>UASFilter</filter-name> 
+  <url-pattern>/index.jsp</url-pattern> 
+</filter-mapping>
+
+<session-config>
+<session-timeout>10</session-timeout>
+</session-config>
+
+<listener>
+  <listener-class>t9.core.servlet.T9ServletRequestListener</listener-class>
+</listener>
+
+<listener>
+  <listener-class>t9.core.esb.server.listener.T9EsbServletRequestListener</listener-class>
+</listener>
+
+<listener>
+  <listener-class>t9.core.servlet.T9SessionListener</listener-class>
+</listener>
+<welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+  <welcome-file>index.html</welcome-file>
+  <welcome-file>index.htm</welcome-file>
+</welcome-file-list>
+
+<servlet>
+    <servlet-name>Kaptcha</servlet-name>
+    <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+
+    <!--
+      For a complete list of Init Parameters, please see:
+      http://code.google.com/p/kaptcha/wiki/ConfigParameters
+    -->
+    <init-param>
+      <param-name>kaptcha.border</param-name>
+      <param-value>no</param-value>
+    </init-param>
+
+    <init-param>
+      <param-name>kaptcha.textproducer.font.color</param-name>
+      <param-value>black</param-value>
+    </init-param>
+    <init-param>
+      <param-name>kaptcha.textproducer.char.space</param-name>
+      <param-value>5</param-value>
+    </init-param>
+
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Kaptcha</servlet-name>
+    <url-pattern>/Kaptcha.jpg</url-pattern>
+  </servlet-mapping>
+</web-app>
